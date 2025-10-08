@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { ArrowRight, Shield, Clock, Star } from "lucide-react"
+import { ArrowRight, Shield, Clock, Star, Phone } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -43,7 +43,10 @@ export function HeroSection() {
                 </Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <Link href="/contact">Get a Quote</Link>
+                <Link href="tel:914-222-1919">
+                <Phone className="mr-2 h-5 w-5" />
+                Call Us
+                </Link>
               </Button>
             </div>
           </div>
