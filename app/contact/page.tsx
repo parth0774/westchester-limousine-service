@@ -29,55 +29,87 @@ export default function ContactPage() {
         <section className="py-20 bg-gradient-to-br from-background to-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Contact Us
+              Contact Westchester Limousine
             </h1>
-            <p className="text-xl text-muted-foreground">
-              Ready to book your luxury transportation? Get in touch with us today
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              We are here to make your transportation experience seamless, comfortable, and reliable. 
+              Whether you are booking a ride, requesting a quote, or need assistance, our team is always ready to help.
             </p>
           </div>
         </section>
 
-        {/* Contact Info + Form */}
+        {/* Info + Form */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-              {/* Contact Info */}
-              <div className="space-y-8">
+              {/* Left Column - Info and Trust Text */}
+              <div className="space-y-10">
+                {/* Company Overview */}
                 <div>
-                  <h3 className="text-lg font-semibold flex items-center gap-2">Phone</h3>
-                  <p>(914) 218-0909</p>
-                  <p className="text-muted-foreground">Available 24/7</p>
+                  <h3 className="text-lg font-semibold flex items-center gap-2">About Us</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Westchester Limousine has built its reputation on professionalism and reliability. 
+                    We provide premium transportation services for airport transfers, corporate travel, 
+                    weddings, proms, and special occasions throughout the New York metropolitan area.
+                  </p>
                 </div>
 
+                {/* Contact Info */}
                 <div>
-                  <h3 className="text-lg font-semibold flex items-center gap-2">Email</h3>
-                  <p>info@westchesterlimousine.com</p>
-                  <p className="text-muted-foreground">We respond within 2 hours</p>
+                  <h3 className="text-lg font-semibold flex items-center gap-2">Contact Information</h3>
+                  <div className="space-y-3 text-muted-foreground">
+                    <p><strong>Phone:</strong> (914) 218-0909</p>
+                    <p><strong>Email:</strong> info@westchesterlimousine.com</p>
+                    <p><strong>Availability:</strong> 24/7 Service</p>
+                    <p><strong>Office Hours:</strong> Mon-Sun 8AM-6PM</p>
+                  </div>
                 </div>
 
+                {/* Service Areas */}
                 <div>
                   <h3 className="text-lg font-semibold flex items-center gap-2">Service Areas</h3>
                   <ul className="text-muted-foreground space-y-1">
                     <li>Westchester County</li>
-                    <li>Fairfield County, CT</li>
+                    <li>Dutch County, CT</li>
                     <li>New York City</li>
-                    <li>Long Island</li>
-                    <li>Northern New Jersey</li>
                   </ul>
                 </div>
 
+                {/* Trust and Quality Section */}
                 <div>
-                  <h3 className="text-lg font-semibold flex items-center gap-2">Hours</h3>
-                  <p>24/7 Service Available</p>
-                  <p className="text-muted-foreground">Office: Mon-Sun 8AM-6PM</p>
+                  <h3 className="text-lg font-semibold flex items-center gap-2">Why Clients Choose Us</h3>
+                  <ul className="list-disc pl-5 text-muted-foreground space-y-2">
+                    <li>Luxury vehicles maintained to the highest standards</li>
+                    <li>Professional and courteous chauffeurs</li>
+                    <li>Always on time, every time</li>
+                    <li>Simple and secure booking process</li>
+                    <li>Dedicated customer service team</li>
+                  </ul>
                 </div>
               </div>
 
-              {/* Jotform Embed */}
+              {/* Right Column - Form */}
               <div className="lg:col-span-2 bg-gray-50 p-8 rounded-lg shadow-lg">
+                <h2 className="text-2xl font-semibold mb-6 text-center">Send Us a Message</h2>
+                <p className="text-muted-foreground text-center mb-8">
+                  Fill out the form below and one of our representatives will respond promptly.
+                </p>
                 <div id="jotform-container" className="w-full h-full"></div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Additional Info Section */}
+        <section className="py-16 bg-gray-50 border-t">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
+            <h2 className="text-2xl font-bold mb-4">Excellence in Every Journey</h2>
+            <p className="text-muted-foreground leading-relaxed">
+              Every ride with Westchester Limousine is tailored to your needs. 
+              From luxury sedans to executive SUVs, our fleet offers comfort and style. 
+              We take care of every detail so you can travel stress-free, whether you are heading to the airport, 
+              a meeting, or a special event.
+            </p>
           </div>
         </section>
       </main>
