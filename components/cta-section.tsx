@@ -16,8 +16,8 @@ export function CtaSection({
   description = "Book your premium limousine service today and travel in style, comfort, and reliability",
   primaryButtonText = "Book Your Ride Now",
   primaryButtonHref = "/contact",
-  secondaryButtonText = "Call (914) 218-0909",
-  secondaryButtonHref = "tel:914-218-0909",
+  secondaryButtonText = "Call (914) 222-1919",
+  secondaryButtonHref = "tel:914-222-1919",
 }: CtaSectionProps) {
   return (
     <section className="py-20 bg-primary text-primary-foreground">
