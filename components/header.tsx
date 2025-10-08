@@ -41,7 +41,13 @@ export function Header() {
                   <Link href="/services/corporate">Corporate Travel</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link href="/services/special-occasions">Special Occasions</Link>
+                  <Link href="/services/school">School Transportation</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/services/hourly">Hourly & City-to-City</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/services/events">Proms, Weddings & Events</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

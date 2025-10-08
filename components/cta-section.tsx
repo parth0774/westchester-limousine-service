@@ -13,7 +13,7 @@ interface CtaSectionProps {
 
 export function CtaSection({
   title = "Ready to Experience Luxury Transportation?",
-  description = "Book your premium limousine service today and travel in style, comfort, and reliability",
+  description = "Whether for business or personal travel, your comfort and satisfaction come first.",
   primaryButtonText = "Book Your Ride Now",
   primaryButtonHref = "/contact",
   secondaryButtonText = "Call (914) 222-1919",

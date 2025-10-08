@@ -1,27 +1,44 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { Briefcase, Car, Heart, Users, Baby, Plane } from "lucide-react"
+import { Plane, Briefcase, Baby, Clock, Heart } from "lucide-react"
 
 const services = [
   {
     icon: Plane,
-    title: "Airport Services",
-    description: "Reliable transportation to all major airports",
+    title: "Airport Car Service",
+    description:
+      "Reliable door-to-door service to and from JFK, LGA, EWR, HPN, and all major airports. We track your flight in real-time and guarantee punctual pickups.",
     href: "/services/airport",
   },
   {
     icon: Briefcase,
     title: "Corporate Travel",
-    description: "Executive transportation solutions for business professionals",
+    description:
+      "Executive car service for business professionals. Travel in comfort and style with professional chauffeurs and priority booking for corporate clients.",
     href: "/services/corporate",
   },
   {
+    icon: Baby,
+    title: "School Transportation",
+    description:
+      "Trusted private school transfers for families across Westchester County. Safe drivers, verified routes, and dependable service every day.",
+    href: "/services/school",
+  },
+  {
+    icon: Clock,
+    title: "Hourly & City-to-City",
+    description:
+      "Perfect for meetings, shopping trips, or inter-city transfers. Enjoy flexibility and convenience with a dedicated chauffeur by the hour.",
+    href: "/services/hourly",
+  },
+  {
     icon: Heart,
-    title: "Special Occasions",
-    description: "Wedding, prom, and celebration transportation",
-    href: "/services/special-occasions",
-  }
+    title: "Proms, Weddings & Events",
+    description:
+      "Arrive in style for your special day. Our luxury sedans, SUVs, and executive shuttles make any occasion unforgettable.",
+    href: "/services/events",
+  },
 ]
 
 export function ServicesPreview() {
@@ -29,9 +46,12 @@ export function ServicesPreview() {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">Our Premium Services</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+            Our Premium Transportation Services
+          </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From corporate travel to special occasions, we provide luxury transportation solutions for every need
+            Whether you need an airport transfer, executive car, or luxury ride for a special occasion, 
+            Westchester Limousine delivers comfort, reliability, and first-class service every time.
           </p>
         </div>
 
@@ -39,7 +59,10 @@ export function ServicesPreview() {
           {services.map((service) => {
             const Icon = service.icon
             return (
-              <Card key={service.title} className="group hover:shadow-lg transition-shadow">
+              <Card
+                key={service.title}
+                className="group hover:shadow-lg transition-shadow border border-border"
+              >
                 <CardHeader>
                   <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                     <Icon className="h-6 w-6 text-accent" />
