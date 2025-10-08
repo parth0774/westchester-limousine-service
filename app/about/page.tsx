@@ -17,7 +17,7 @@ export default function AboutPage() {
                 About Westchester Limousine
               </h1>
               <p className="text-xl text-muted-foreground text-pretty">
-                Serving the Tri State Area with premium limousine and black car service since 1995.
+                Serving the Tri State Area with premiums limousine and black car service since 1995.
                 Westchester Limousine is your trusted partner for luxury transportation.
               </p>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
