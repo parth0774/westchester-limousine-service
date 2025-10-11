@@ -11,6 +11,7 @@ const services = [
       "Reliable door-to-door service to and from JFK, LGA, EWR, HPN, and all major airports. We track your flight in real-time and guarantee punctual pickups.",
     href: "/services/airport",
     featured: true,
+    ctaText: "Explore Airport Transfer Services"
   },
   {
     icon: Briefcase,
@@ -19,6 +20,7 @@ const services = [
       "Executive car service for business professionals. Travel in comfort and style with professional chauffeurs and priority booking for corporate clients.",
     href: "/services/corporate",
     featured: false,
+    ctaText: "Discover Corporate Limousine Solutions"
   },
   {
     icon: Baby,
@@ -27,6 +29,7 @@ const services = [
       "Trusted private school transfers for families across Westchester County. Safe drivers, verified routes, and dependable service every day.",
     href: "/services/school",
     featured: false,
+    ctaText: "School Event Transportation"
   },
   {
     icon: Clock,
@@ -35,6 +38,7 @@ const services = [
       "Perfect for meetings, shopping trips, or inter-city transfers. Enjoy flexibility and convenience with a dedicated chauffeur by the hour.",
     href: "/services/hourly",
     featured: false,
+    ctaText: "Book Hourly Car Service"
   },
   {
     icon: Heart,
@@ -43,6 +47,7 @@ const services = [
       "Arrive in style for your special day. Our luxury sedans, SUVs, and executive shuttles make any occasion unforgettable.",
     href: "/services/events",
     featured: false,
+    ctaText: "Special Event Transportation"
   },
 ]
 
@@ -115,7 +120,7 @@ export function ServicesPreview() {
                     className="w-full group/btn hover:bg-accent hover:text-white transition-all duration-300 text-accent font-semibold"
                   >
                     <Link href={service.href} className="flex items-center justify-center">
-                      Learn More
+                      {service.ctaText}
                       <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                     </Link>
                   </Button>
