@@ -57,9 +57,6 @@ export function Header() {
             <Link href="/contact" className="text-foreground hover:text-accent transition-colors">
               Contact
             </Link>
-            <Link href="/blog" className="text-foreground hover:text-accent transition-colors">
-              Blog
-            </Link>
           </nav>
 
           {/* CTA Buttons */}

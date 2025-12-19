@@ -19,8 +19,17 @@ const services = [
     description:
       "Executive car service for business professionals. Travel in comfort and style with professional chauffeurs and priority booking for corporate clients.",
     href: "/services/corporate",
-    featured: false,
+    featured: true,
     ctaText: "Discover Corporate Limousine Solutions"
+  },
+  {
+    icon: Plane,
+    title: "Point to Point Limousine Service",
+    description:
+      "Reliable door-to-door service to and from any location in Westchester County, New York. We track your flight in real-time and guarantee punctual pickups.",
+    href: "/services/point-to-point",
+    featured: true,
+    ctaText: "Explore Point to Point Limousine Service"
   },
   {
     icon: Baby,
@@ -48,7 +57,7 @@ const services = [
     href: "/services/events",
     featured: false,
     ctaText: "Special Event Transportation"
-  },
+  }
 ]
 
 export function ServicesPreview() {

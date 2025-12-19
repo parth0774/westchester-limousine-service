@@ -17,7 +17,7 @@ export function HomeAboutUs() {
       />
       <meta
         itemProp="address"
-        content="Mohegan Lake, New York, United States"
+        content="Westchester County, New York, United States"
       />
       <meta itemProp="telephone" content="+1-914-555-1234" />
 
@@ -76,9 +76,9 @@ export function HomeAboutUs() {
           <div className="space-y-6">
             <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
               <p>
-                Based in <strong className="text-foreground">Mohegan Lake, New York</strong>, we proudly serve clients across
-                Westchester County, Putnam, Dutchess County, Connecticut, and the
-                greater New York area. Every journey with us reflects our focus on
+                Based in <strong className="text-foreground">Westchester County, New York</strong>, we proudly serve clients across
+                Putnam, Dutchess, Rockland County, Connecticut and the
+                greater New York City area. Every journey with us reflects our focus on
                 excellence, professionalism, and personal care.
               </p>
               <p>

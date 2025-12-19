@@ -1,13 +1,14 @@
 "use client"
 
 import { MapPin, Plane, Building2, Navigation } from "lucide-react"
+import Link from "next/link"
 
 const primaryAreas = [
-  "Westchester County, NY",
-  "Putnam County, NY",
-  "Dutchess County, NY",
-  "Fairfield County, CT",
-  "New York City Metro Area"
+  { name: "Westchester County, NY", slug: "westchester-county-ny" },
+  { name: "Putnam County, NY", slug: "putnam-county-ny" },
+  { name: "Dutchess County, NY", slug: "dutchess-county-ny" },
+  { name: "Fairfield County, CT", slug: "fairfield-county-ct" },
+  { name: "New York City Metro Area", slug: "new-york-city-metro-area" }
 ]
 
 const destinations = [
@@ -71,13 +72,14 @@ export function ServiceHome() {
             </h3>
             <div className="space-y-3">
               {primaryAreas.map((area, index) => (
-                <div 
+                <Link
                   key={index}
-                  className="flex items-center space-x-3 p-3 bg-secondary/50 rounded-lg hover:bg-accent/10 transition-colors"
+                  href={`/service-areas/${area.slug}/`}
+                  className="flex items-center space-x-3 p-3 bg-secondary/50 rounded-lg hover:bg-accent/10 transition-colors cursor-pointer group"
                 >
-                  <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
-                  <span className="text-foreground font-medium">{area}</span>
-                </div>
+                  <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                  <span className="text-foreground font-medium group-hover:text-accent transition-colors">{area.name}</span>
+                </Link>
               ))}
             </div>
           </div>

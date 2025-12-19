@@ -5,12 +5,23 @@ import { ArrowRight, CheckCircle, Phone, Star } from "lucide-react"
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src="/luxury-black-limousine-parked-in-front-of-elegant-.jpg"
-          alt="Luxury black car service"
+      {/* Background Video with Overlay */}
+      <div className="absolute inset-0 z-0" style={{ transform: 'translateZ(0)', backfaceVisibility: 'hidden' }}>
+        <video
+          src="/westchester_limousine.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
           className="w-full h-full object-cover"
+          style={{
+            transform: 'translateZ(0)',
+            willChange: 'transform',
+            backfaceVisibility: 'hidden',
+            WebkitTransform: 'translateZ(0)',
+            WebkitBackfaceVisibility: 'hidden',
+          }}
         />
         {/* Gradient Overlays for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-transparent"></div>
