@@ -4,201 +4,34 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { MapPin, Clock, Plane, Building2, CheckCircle, ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
+import { areaData } from "@/lib/service-areas-data"
+import type { Metadata } from "next"
+import { Breadcrumbs } from "@/components/breadcrumbs"
 
-const areaData: Record<string, {
-  name: string
-  description: string
-  cities: string[]
-  features: string[]
-  popularDestinations: { name: string; description: string }[]
-  travelTime: { destination: string; time: string }[]
-  serviceTypes: string[]
-  whyChoose: string[]
-}> = {
-  "westchester-county-ny": {
-    name: "Westchester County, NY",
-    description: "Westchester Limousine has been serving Westchester County since 1995, providing premium transportation services to residents, businesses, and visitors throughout the region. Our local expertise and deep knowledge of Westchester's roads and traffic patterns ensure timely and efficient service.",
-    cities: ["White Plains", "Yonkers", "Mount Vernon", "New Rochelle", "Peekskill", "Ossining", "Tarrytown", "Scarsdale", "Rye", "Mamaroneck", "Harrison", "Bronxville"],
-    features: [
-      "Corporate Transportation",
-      "Airport Transfers to JFK, LGA, and EWR",
-      "Wedding and Special Event Services",
-      "Hourly Chauffeur Service",
-      "Point-to-Point Transportation"
-    ],
-    popularDestinations: [
-      { name: "Westchester County Airport (HPN)", description: "Convenient transfers to and from Westchester County Airport" },
-      { name: "JFK International Airport", description: "Reliable service to JFK with professional chauffeurs" },
-      { name: "LaGuardia Airport", description: "Efficient transfers to LGA for business and leisure travelers" },
-      { name: "New York City", description: "Seamless connections to Manhattan and all NYC boroughs" }
-    ],
-    travelTime: [
-      { destination: "JFK Airport", time: "45-60 minutes" },
-      { destination: "LaGuardia Airport", time: "30-45 minutes" },
-      { destination: "Newark Airport", time: "60-75 minutes" },
-      { destination: "Manhattan", time: "30-50 minutes" }
-    ],
-    serviceTypes: [
-      "Corporate Executive Transportation",
-      "Airport Shuttle Services",
-      "Wedding Limousine Services",
-      "Hourly Chauffeur Rentals",
-      "Special Event Transportation"
-    ],
-    whyChoose: [
-      "25+ years of local experience in Westchester County",
-      "Knowledge of all major routes and traffic patterns",
-      "24/7 availability for your convenience",
-      "Fleet of luxury vehicles maintained to highest standards"
-    ]
-  },
-  "putnam-county-ny": {
-    name: "Putnam County, NY",
-    description: "Serving Putnam County with reliable and luxurious transportation services. Our professional chauffeurs are familiar with the scenic routes and communities throughout Putnam County, ensuring safe and comfortable travel for all your transportation needs.",
-    cities: ["Carmel", "Mahopac", "Brewster", "Putnam Valley", "Cold Spring", "Garrison", "Patterson", "Southeast"],
-    features: [
-      "Airport Shuttle Services",
-      "Wedding Transportation",
-      "Corporate Travel",
-      "Special Events",
-      "Long Distance Travel"
-    ],
-    popularDestinations: [
-      { name: "JFK International Airport", description: "Comfortable transfers to JFK from Putnam County" },
-      { name: "LaGuardia Airport", description: "Reliable service to LGA for business travelers" },
-      { name: "New York City", description: "Direct service to Manhattan and surrounding areas" },
-      { name: "Westchester County", description: "Connections to all Westchester destinations" }
-    ],
-    travelTime: [
-      { destination: "JFK Airport", time: "60-75 minutes" },
-      { destination: "LaGuardia Airport", time: "50-65 minutes" },
-      { destination: "Newark Airport", time: "75-90 minutes" },
-      { destination: "Manhattan", time: "50-70 minutes" }
-    ],
-    serviceTypes: [
-      "Airport Transportation",
-      "Wedding Limousine Services",
-      "Corporate Chauffeur Services",
-      "Special Event Transportation",
-      "Group Transportation"
-    ],
-    whyChoose: [
-      "Expert knowledge of Putnam County routes",
-      "Reliable service for rural and suburban areas",
-      "Flexible scheduling for your convenience",
-      "Professional chauffeurs trained in luxury service"
-    ]
-  },
-  "dutchess-county-ny": {
-    name: "Dutchess County, NY",
-    description: "Premium transportation services for Dutchess County residents and businesses. Whether you're traveling to the airport, attending a corporate event, or planning a special occasion, we provide reliable and luxurious transportation throughout the Hudson Valley region.",
-    cities: ["Poughkeepsie", "Beacon", "Fishkill", "Wappingers Falls", "Hyde Park", "Rhinebeck", "Millbrook", "Pawling"],
-    features: [
-      "Long Distance Travel",
-      "Corporate Services",
-      "Airport Transfers",
-      "Group Transportation",
-      "Event Services"
-    ],
-    popularDestinations: [
-      { name: "JFK International Airport", description: "Comfortable long-distance transfers to JFK" },
-      { name: "LaGuardia Airport", description: "Reliable service to LGA from Dutchess County" },
-      { name: "Newark Airport", description: "Convenient transfers to EWR" },
-      { name: "New York City", description: "Direct service to Manhattan and all boroughs" }
-    ],
-    travelTime: [
-      { destination: "JFK Airport", time: "90-120 minutes" },
-      { destination: "LaGuardia Airport", time: "75-105 minutes" },
-      { destination: "Newark Airport", time: "105-135 minutes" },
-      { destination: "Manhattan", time: "75-105 minutes" }
-    ],
-    serviceTypes: [
-      "Long Distance Airport Transportation",
-      "Corporate Executive Services",
-      "Special Event Limousine Services",
-      "Group Transportation",
-      "Hourly Chauffeur Services"
-    ],
-    whyChoose: [
-      "Experience with long-distance travel routes",
-      "Comfortable vehicles for extended journeys",
-      "Professional service for Hudson Valley region",
-      "Flexible scheduling for early morning and late night flights"
-    ]
-  },
-  "fairfield-county-ct": {
-    name: "Fairfield County, CT",
-    description: "Connecting Connecticut to New York with premium transportation services. Our cross-state expertise ensures seamless travel between Fairfield County and New York airports, Manhattan, and the greater Tri-State Area.",
-    cities: ["Stamford", "Greenwich", "Danbury", "Norwalk", "Bridgeport", "Fairfield", "Westport", "Darien"],
-    features: [
-      "Cross-State Travel",
-      "Corporate Executives",
-      "Airport Services",
-      "Luxury Events",
-      "Business Travel"
-    ],
-    popularDestinations: [
-      { name: "JFK International Airport", description: "Reliable cross-state service to JFK" },
-      { name: "LaGuardia Airport", description: "Efficient transfers to LGA from Connecticut" },
-      { name: "Newark Airport", description: "Convenient service to EWR" },
-      { name: "Manhattan", description: "Direct service to all NYC business districts" }
-    ],
-    travelTime: [
-      { destination: "JFK Airport", time: "60-90 minutes" },
-      { destination: "LaGuardia Airport", time: "45-75 minutes" },
-      { destination: "Newark Airport", time: "75-105 minutes" },
-      { destination: "Manhattan", time: "45-75 minutes" }
-    ],
-    serviceTypes: [
-      "Cross-State Corporate Transportation",
-      "Airport Shuttle Services",
-      "Executive Chauffeur Services",
-      "Luxury Event Transportation",
-      "Business Travel Solutions"
-    ],
-    whyChoose: [
-      "Expert knowledge of Connecticut-New York routes",
-      "Experience with corporate executives and business travelers",
-      "Reliable service across state lines",
-      "Luxury vehicles perfect for business and special occasions"
-    ]
-  },
-  "new-york-city-metro-area": {
-    name: "New York City Metro Area",
-    description: "Complete coverage of all five boroughs with professional chauffeur services. Our experienced drivers navigate Manhattan, Brooklyn, Queens, Bronx, and Staten Island with expertise, ensuring timely arrivals for business meetings, events, and airport transfers.",
-    cities: ["Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island"],
-    features: [
-      "City Navigation",
-      "Corporate Meetings",
-      "Entertainment Venues",
-      "24/7 Service",
-      "Airport Connections"
-    ],
-    popularDestinations: [
-      { name: "JFK International Airport", description: "Direct service from all NYC boroughs to JFK" },
-      { name: "LaGuardia Airport", description: "Efficient transfers to LGA from Manhattan and outer boroughs" },
-      { name: "Newark Airport", description: "Reliable service to EWR from all NYC locations" },
-      { name: "Business Districts", description: "Service to Wall Street, Midtown, Downtown, and all major business areas" }
-    ],
-    travelTime: [
-      { destination: "JFK Airport", time: "30-60 minutes (varies by borough)" },
-      { destination: "LaGuardia Airport", time: "20-45 minutes (varies by borough)" },
-      { destination: "Newark Airport", time: "45-75 minutes (varies by borough)" },
-      { destination: "Inter-Borough", time: "20-60 minutes (varies by route)" }
-    ],
-    serviceTypes: [
-      "Corporate Executive Transportation",
-      "Airport Transfer Services",
-      "Event Transportation",
-      "Hourly City Chauffeur Services",
-      "Special Occasion Limousine Services"
-    ],
-    whyChoose: [
-      "Expert navigation of NYC traffic and routes",
-      "Knowledge of all five boroughs",
-      "24/7 availability for your convenience",
-      "Professional service for business and leisure"
-    ]
+export async function generateMetadata({ params }: { params: { area: string } }): Promise<Metadata> {
+  const area = areaData[params.area]
+  
+  if (!area) {
+    return {
+      title: "Service Area Not Found | Westchester Limousine",
+    }
+  }
+
+  return {
+    title: `Limousine Service in ${area.name} | Westchester Limousine`,
+    description: `${area.description} Professional chauffeur services for ${area.cities.map(c => c.name).join(", ")} and surrounding areas.`,
+    keywords: `limousine service ${area.name}, car service ${area.name}, chauffeur ${area.name}, airport transportation ${area.name}, ${area.cities.map(c => `limo ${c.name}`).join(", ")}`,
+    openGraph: {
+      title: `Premium Limousine Service in ${area.name} | Westchester Limousine`,
+      description: area.description,
+      url: `https://westchesterlimousine.net/service-areas/${params.area}/`,
+      siteName: "Westchester Limousine",
+      locale: "en_US",
+      type: "website",
+    },
+    alternates: {
+      canonical: `https://westchesterlimousine.net/service-areas/${params.area}/`,
+    },
   }
 }
 
@@ -228,6 +61,12 @@ export default function AreaPage({ params }: { params: { area: string } }) {
         <section className="py-20 bg-gradient-to-br from-background to-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
+              <Breadcrumbs 
+                items={[
+                  { label: "Service Areas", href: "/#service-areas" },
+                  { label: area.name }
+                ]}
+              />
               <Link 
                 href="/#service-areas" 
                 className="inline-flex items-center text-muted-foreground hover:text-accent mb-6 transition-colors"
@@ -255,13 +94,14 @@ export default function AreaPage({ params }: { params: { area: string } }) {
               <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Cities We Serve</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {area.cities.map((city, index) => (
-                  <div 
+                  <Link
                     key={index}
-                    className="flex items-center space-x-2 p-3 bg-secondary/50 rounded-lg hover:bg-accent/10 transition-colors"
+                    href={`/service-areas/${params.area}/${city.slug}/`}
+                    className="flex items-center space-x-2 p-3 bg-secondary/50 rounded-lg hover:bg-accent/10 transition-colors cursor-pointer group"
                   >
-                    <MapPin className="h-4 w-4 text-accent flex-shrink-0" />
-                    <span className="text-foreground font-medium">{city}</span>
-                  </div>
+                    <MapPin className="h-4 w-4 text-accent flex-shrink-0 group-hover:scale-110 transition-transform" />
+                    <span className="text-foreground font-medium group-hover:text-accent transition-colors">{city.name}</span>
+                  </Link>
                 ))}
               </div>
             </div>
