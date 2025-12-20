@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle, Phone, Star } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative h-[calc(100vh-4rem)] flex items-center overflow-hidden">
       {/* Background Video with Overlay */}
       <div className="absolute inset-0 z-0" style={{ transform: 'translateZ(0)', backfaceVisibility: 'hidden' }}>
         <video
@@ -29,82 +29,67 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20">
-        <div className="max-w-3xl">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 h-full flex items-start pt-8 sm:pt-12 lg:pt-16 pb-4">
+        <div className="max-w-3xl w-full">
           
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-4 py-2 mb-6">
-            <Star className="h-4 w-4 text-accent fill-accent" />
-            <span className="text-sm font-medium text-white">Westchester's Premier Luxury Transportation</span>
+          <div className="inline-flex items-center space-x-1.5 bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-2.5 sm:px-3 py-1 mb-3 sm:mb-4">
+            <Star className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-accent fill-accent" />
+            <span className="text-xs font-medium text-white">Westchester's Premier Luxury Transportation</span>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-[1.1] mb-3 sm:mb-4">
             Westchester Limousine
-            <span className="block text-accent mt-2">Luxury Black Car Service</span>
+            <span className="block text-accent mt-1">Luxury Black Car Service</span>
           </h1>
 
           {/* Description */}
-          <p className="text-xl lg:text-2xl text-gray-200 mb-8 leading-relaxed">
+          <p className="text-sm sm:text-base lg:text-lg text-gray-200 mb-4 sm:mb-5 leading-snug">
             Experience professional chauffeur service in Westchester County, Putnam, Dutchess, and Connecticut. 
             Airport transfers to JFK, LGA, and NYC.
           </p>
 
           {/* Trust Highlights */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-1.5 sm:gap-2 mb-4 sm:mb-5 mt-4 sm:mt-6 lg:mt-9">
             {[
               "Always On Time",
               "Professional Chauffeurs",
               "Clean Luxury Fleet",
               "Family Owned & Local"
             ].map((item, i) => (
-              <div key={i} className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-3 border border-white/20">
-                <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-sm font-medium text-white">{item}</span>
+              <div key={i} className="flex items-center space-x-1 bg-white/10 backdrop-blur-sm rounded-lg px-1.5 sm:px-2 py-1.5 border border-white/20">
+                <CheckCircle className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-accent flex-shrink-0" />
+                <span className="text-xs font-medium text-white">{item}</span>
               </div>
             ))}
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-white text-lg px-8 py-6" asChild>
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 mt-4 sm:mt-6 lg:mt-10">
+            <Button size="default" className="bg-accent hover:bg-accent/90 text-white text-sm sm:text-base px-5 sm:px-6 py-2.5 sm:py-3" asChild>
               <Link href="/booking">
                 Book Online Now
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button 
               variant="outline" 
-              size="lg" 
-              className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-black text-lg px-8 py-6"
+              size="default" 
+              className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-black text-sm sm:text-base px-5 sm:px-6 py-2.5 sm:py-3"
               asChild
             >
               <Link href="tel:914-222-1919">
-                <Phone className="mr-2 h-5 w-5" />
+                <Phone className="mr-2 h-4 w-4" />
                 Call 914-222-1919
               </Link>
             </Button>
           </div>
-
-          {/* Stats Cards */}
-          <div className="grid grid-cols-3 gap-4">
-            {[
-              { number: "25+", label: "Years Experience" },
-              { number: "50K+", label: "Happy Clients" },
-              { number: "24/7", label: "Available" }
-            ].map((stat, i) => (
-              <div key={i} className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-4 text-center">
-                <div className="text-3xl lg:text-4xl font-bold text-accent mb-1">{stat.number}</div>
-                <div className="text-sm text-gray-300">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-
         </div>
       </div>
 
       {/* Bottom Fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent z-10"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-8 sm:h-12 bg-gradient-to-t from-background to-transparent z-10"></div>
     </section>
   )
 }

@@ -74,21 +74,21 @@ export function HomeAboutUs() {
 
           {/* Content Side */}
           <div className="space-y-6">
-            <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
-              <p>
+            <div className="space-y-4 text-muted-foreground leading-relaxed text-lg text-justify">
+              <p className="text-justify">
                 Based in <strong className="text-foreground">Westchester County, New York</strong>, we proudly serve clients across
                 Putnam, Dutchess, Rockland County, Connecticut and the
                 greater New York City area. Every journey with us reflects our focus on
                 excellence, professionalism, and personal care.
               </p>
-              <p>
+              <p className="text-justify">
                 Our mission is simple. We provide a seamless and luxurious ground
                 transportation experience for every client. Whether you are
                 catching a flight, attending a business meeting, or celebrating a
                 special occasion, our chauffeurs ensure that you arrive safely and
                 on time.
               </p>
-              <p>
+              <p className="text-justify">
                 Each trip is supported by a dedicated customer service team and
                 conducted in a meticulously maintained vehicle. We combine
                 elegance and reliability to create a travel experience that meets
