@@ -1,3 +1,9 @@
+export interface SEOContentSection {
+  title: string
+  content: string
+  items?: string[]
+}
+
 export interface CityData {
   name: string
   slug: string
@@ -9,12 +15,8 @@ export interface CityData {
   nearbyAttractions: string[]
   travelTimes: { destination: string; time: string }[]
   seoContent?: {
-    focusKeyphrase: string
-    seoTitle: string
-    metaDescription: string
-    urlSlug: string
-    content: string
-    imageAltText: string
+    introduction?: string
+    sections?: SEOContentSection[]
   }
 }
 

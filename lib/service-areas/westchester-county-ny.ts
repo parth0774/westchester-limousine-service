@@ -8,7 +8,7 @@ export const westchesterCountyData: AreaData = {
     {
       name: "White Plains",
       slug: "white-plains",
-      description: "White Plains, the county seat of Westchester, is a major business hub with numerous corporate headquarters. Our professional limousine service provides reliable transportation for executives, business travelers, and residents throughout White Plains and to all major airports.",
+      description: "White Plains, the county of Westchester, is a major business hub with numerous corporate headquarters. Our professional limousine service provides reliable transportation for executives, business travelers, and residents throughout White Plains and to all major airports.",
       landmarks: ["White Plains City Center", "Westchester County Center", "Galleria Mall", "White Plains Hospital", "Purchase College"],
       popularRoutes: [
         { from: "White Plains", to: "JFK Airport", time: "50-65 minutes" },
@@ -19,19 +19,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Corporate Executive Transportation", "Airport Shuttle Services", "Wedding Limousine Services", "Hourly Chauffeur Rentals"],
       businessDistricts: ["Downtown White Plains", "Westchester Avenue Corridor", "Mamaroneck Avenue Business District"],
       nearbyAttractions: ["Rye Playland", "Kensico Dam Plaza", "Westchester County Center", "White Plains Performing Arts Center"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "50-65 minutes" },
-        { destination: "LaGuardia Airport", time: "35-50 minutes" },
-        { destination: "Newark Airport", time: "65-80 minutes" },
-        { destination: "Manhattan", time: "35-50 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in White Plains NY",
-        seoTitle: "Westchester Limousine Service in White Plains, NY | Luxury Rides",
-        metaDescription: "Looking for a reliable Westchester limousine service in White Plains, NY? Enjoy luxury airport, corporate, and event transportation.",
-        urlSlug: "/westchester-limousine-white-plains-ny",
-        content: "Westchester Limousine Service in White Plains, NY\n\nIf you live in White Plains, New York, and need reliable, professional transportation, our Westchester limousine service in White Plains NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that White Plains residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for White Plains Residents\n\nWhite Plains is a busy hub for professionals, families, and travelers. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in White Plains NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from White Plains, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from White Plains to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in White Plains NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nWhite Plains is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in White Plains and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in White Plains NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in White Plains NY?\n\nWhite Plains residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of White Plains and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing White Plains and Surrounding Areas\n\nAlthough we specialize in White Plains, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in White Plains NY a convenient choice for both local and long-distance travel.\n\nBook Your White Plains Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in White Plains NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in white plains ny"
+        introduction: "If you live in White Plains, New York, and need reliable, professional transportation, our Westchester limousine service in White Plains NY is designed for you. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that White Plains residents enjoy stress-free transportation with Westchester Limousine throughout Westchester County and beyond.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for White Plains Residents",
+            content: "White Plains is a busy hub for professionals, families, and travelers. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in White Plains NY is ideal for:",
+            items: [
+              "Daily commuters",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from White Plains, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from White Plains to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in White Plains NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "White Plains is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Roadshows and business events",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in White Plains NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in White Plains and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in White Plains NY?",
+            content: "White Plains residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of White Plains and Westchester County",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving White Plains and Surrounding Areas",
+            content: "Although we specialize in White Plains, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in White Plains NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -48,19 +105,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Airport Transportation", "Corporate Services", "Wedding Services", "Event Transportation"],
       businessDistricts: ["Yonkers Downtown", "South Broadway", "Central Park Avenue"],
       nearbyAttractions: ["Hudson River Waterfront", "Yonkers Raceway", "Untermyer Gardens", "Cross County Shopping Center"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "45-60 minutes" },
-        { destination: "LaGuardia Airport", time: "30-45 minutes" },
-        { destination: "Newark Airport", time: "60-75 minutes" },
-        { destination: "Manhattan", time: "25-40 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Yonkers NY",
-        seoTitle: "Westchester Limousine Service in Yonkers, NY | Premium Rides",
-        metaDescription: "Professional Westchester limousine service in Yonkers, NY. Luxury airport, corporate, and event transportation with reliable chauffeurs.",
-        urlSlug: "westchester-limousine-yonkers-ny",
-        content: "Westchester Limousine Service in Yonkers, NY\n\nIf you live in Yonkers, New York, and need reliable, professional transportation, our Westchester limousine service in Yonkers NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Yonkers residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Yonkers Residents\n\nYonkers is New York's fourth-largest city with a vibrant mix of residential neighborhoods and commercial districts. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Yonkers NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Yonkers, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Yonkers to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Yonkers NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nYonkers is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Yonkers and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Yonkers NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Yonkers NY?\n\nYonkers residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Yonkers and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Yonkers and Surrounding Areas\n\nAlthough we specialize in Yonkers, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Yonkers NY a convenient choice for both local and long-distance travel.\n\nBook Your Yonkers Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Yonkers NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in yonkers ny"
+        introduction: "If you live in Yonkers, New York, and need reliable, professional transportation, our Westchester limousine service in Yonkers NY is designed for you. As New York's fourth-largest city, Yonkers offers a vibrant mix of residential neighborhoods and commercial districts. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Yonkers residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Yonkers Residents",
+            content: "Yonkers is a bustling city with diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Yonkers NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Yonkers, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Yonkers to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Yonkers NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Yonkers is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Yonkers NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Yonkers and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Yonkers NY?",
+            content: "Yonkers residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Yonkers and the Tri-State Area",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Yonkers and Surrounding Areas",
+            content: "Although we specialize in Yonkers, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Yonkers NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -77,19 +191,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Airport Shuttles", "Corporate Transportation", "Wedding Services", "Hourly Rentals"],
       businessDistricts: ["South 4th Avenue", "Fleetwood", "Mount Vernon Downtown"],
       nearbyAttractions: ["St. Paul's Church", "Mount Vernon Public Library", "Fleetwood Park"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "40-55 minutes" },
-        { destination: "LaGuardia Airport", time: "25-40 minutes" },
-        { destination: "Newark Airport", time: "55-70 minutes" },
-        { destination: "Manhattan", time: "20-35 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Mount Vernon NY",
-        seoTitle: "Westchester Limousine Service in Mount Vernon, NY | Luxury Rides",
-        metaDescription: "Looking for a reliable Westchester limousine service in Mount Vernon, NY? Enjoy luxury airport, corporate, and event transportation.",
-        urlSlug: "westchester-limousine-mount-vernon-ny",
-        content: "Westchester Limousine Service in Mount Vernon, NY\n\nIf you live in Mount Vernon, New York, and need reliable, professional transportation, our Westchester limousine service in Mount Vernon NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Mount Vernon residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Mount Vernon Residents\n\nMount Vernon is a historic city with a rich cultural heritage and a vibrant community. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Mount Vernon NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Mount Vernon, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Mount Vernon to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Mount Vernon NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nMount Vernon is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Mount Vernon and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Mount Vernon NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Mount Vernon NY?\n\nMount Vernon residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Mount Vernon and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Mount Vernon and Surrounding Areas\n\nAlthough we specialize in Mount Vernon, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Mount Vernon NY a convenient choice for both local and long-distance travel.\n\nBook Your Mount Vernon Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Mount Vernon NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in mount vernon ny"
+        introduction: "If you live in Mount Vernon, New York, and need reliable, professional transportation, our Westchester limousine service in Mount Vernon NY is designed for you. Strategically located in southern Westchester, Mount Vernon provides easy access to Manhattan and the Bronx. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Mount Vernon residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Mount Vernon Residents",
+            content: "Mount Vernon's strategic location makes it ideal for commuters and travelers. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Mount Vernon NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan and the Bronx",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Mount Vernon, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Mount Vernon to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Mount Vernon NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Mount Vernon is home to many businesses and corporate offices. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Mount Vernon NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Mount Vernon and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Mount Vernon NY?",
+            content: "Mount Vernon residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Mount Vernon and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Mount Vernon and Surrounding Areas",
+            content: "Although we specialize in Mount Vernon, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Mount Vernon NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -106,19 +277,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Corporate Executive Services", "Airport Transfers", "Wedding Limousines", "Special Events"],
       businessDistricts: ["Downtown New Rochelle", "Huguenot Street", "North Avenue Corridor"],
       nearbyAttractions: ["Glen Island Park", "Huguenot Park", "New Rochelle Waterfront", "Five Islands Park"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "45-60 minutes" },
-        { destination: "LaGuardia Airport", time: "30-45 minutes" },
-        { destination: "Newark Airport", time: "60-75 minutes" },
-        { destination: "Manhattan", time: "30-45 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in New Rochelle NY",
-        seoTitle: "Westchester Limousine Service in New Rochelle, NY",
-        metaDescription: "Premium Westchester limousine service in New Rochelle, NY. Waterfront city transportation to airports, Manhattan, and events.",
-        urlSlug: "westchester-limousine-new-rochelle-ny",
-        content: "Westchester Limousine Service in New Rochelle, NY\n\nIf you live in New Rochelle, New York, and need reliable, professional transportation, our Westchester limousine service in New Rochelle NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that New Rochelle residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for New Rochelle Residents\n\nNew Rochelle is a diverse waterfront city with excellent access to Manhattan and Long Island Sound. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in New Rochelle NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from New Rochelle, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from New Rochelle to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in New Rochelle NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nNew Rochelle is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in New Rochelle and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in New Rochelle NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in New Rochelle NY?\n\nNew Rochelle residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of New Rochelle and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing New Rochelle and Surrounding Areas\n\nAlthough we specialize in New Rochelle, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in New Rochelle NY a convenient choice for both local and long-distance travel.\n\nBook Your New Rochelle Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in New Rochelle NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in new rochelle ny"
+        introduction: "If you live in New Rochelle, New York, and need reliable, professional transportation, our Westchester limousine service in New Rochelle NY is designed for you. As a diverse waterfront city, New Rochelle offers excellent access to Manhattan and Long Island Sound. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that New Rochelle residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for New Rochelle Residents",
+            content: "New Rochelle's thriving business community and waterfront location create diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in New Rochelle NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from New Rochelle, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from New Rochelle to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in New Rochelle NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "New Rochelle is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in New Rochelle NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in New Rochelle and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in New Rochelle NY?",
+            content: "New Rochelle residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of New Rochelle and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving New Rochelle and Surrounding Areas",
+            content: "Although we specialize in New Rochelle, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in New Rochelle NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -135,19 +363,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Long Distance Transportation", "Airport Services", "Wedding Transportation", "Corporate Travel"],
       businessDistricts: ["Downtown Peekskill", "North Division Street", "Main Street Corridor"],
       nearbyAttractions: ["Peekskill Riverfront", "Blue Mountain Reservation", "Paramount Theater", "Fort Hill Park"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "70-90 minutes" },
-        { destination: "LaGuardia Airport", time: "60-80 minutes" },
-        { destination: "Newark Airport", time: "90-110 minutes" },
-        { destination: "Manhattan", time: "60-75 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Peekskill NY",
-        seoTitle: "Westchester Limousine Service in Peekskill, NY",
-        metaDescription: "Historic Hudson River limousine service in Peekskill, NY. Scenic routes to airports, Manhattan, and Hudson Valley destinations.",
-        urlSlug: "westchester-limousine-peekskill-ny",
-        content: "Westchester Limousine Service in Peekskill, NY\n\nIf you live in Peekskill, New York, and need reliable, professional transportation, our Westchester limousine service in Peekskill NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Peekskill residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Peekskill Residents\n\nPeekskill is a historic Hudson River city with scenic beauty and easy access to the Hudson Valley. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Peekskill NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Peekskill, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Peekskill to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Peekskill NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nPeekskill is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Peekskill and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Peekskill NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Peekskill NY?\n\nPeekskill residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Peekskill and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Peekskill and Surrounding Areas\n\nAlthough we specialize in Peekskill, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Peekskill NY a convenient choice for both local and long-distance travel.\n\nBook Your Peekskill Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Peekskill NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in peekskill ny"
+        introduction: "If you live in Peekskill, New York, and need reliable, professional transportation, our Westchester limousine service in Peekskill NY is designed for you. As a historic Hudson River city, Peekskill offers scenic beauty and easy access to the Hudson Valley. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Peekskill residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Peekskill Residents",
+            content: "Peekskill's location in the Hudson Valley creates unique transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Peekskill NY is ideal for:",
+            items: [
+              "Long-distance travelers",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Peekskill, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Peekskill to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Peekskill NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Peekskill is home to many businesses and corporate offices. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Peekskill NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Peekskill and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Peekskill NY?",
+            content: "Peekskill residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Peekskill and the Hudson Valley",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Peekskill and Surrounding Areas",
+            content: "Although we specialize in Peekskill, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Peekskill NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -164,19 +449,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Airport Transportation", "Corporate Services", "Wedding Services", "Event Transportation"],
       businessDistricts: ["Downtown Ossining", "Main Street", "Croton Avenue"],
       nearbyAttractions: ["Teatown Lake Reservation", "Ossining Waterfront", "Croton Point Park", "Rockefeller State Park"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "65-85 minutes" },
-        { destination: "LaGuardia Airport", time: "55-75 minutes" },
-        { destination: "Newark Airport", time: "85-105 minutes" },
-        { destination: "Manhattan", time: "50-65 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Ossining NY",
-        seoTitle: "Westchester Limousine Service in Ossining, NY",
-        metaDescription: "Charming Hudson River limousine service in Ossining, NY. Historic village transportation to airports and Tri-State destinations.",
-        urlSlug: "westchester-limousine-ossining-ny",
-        content: "Westchester Limousine Service in Ossining, NY\n\nIf you live in Ossining, New York, and need reliable, professional transportation, our Westchester limousine service in Ossining NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Ossining residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Ossining Residents\n\nOssining is a charming Hudson River village with historic charm and modern amenities. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Ossining NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Ossining, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Ossining to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Ossining NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nOssining is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Ossining and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Ossining NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Ossining NY?\n\nOssining residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Ossining and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Ossining and Surrounding Areas\n\nAlthough we specialize in Ossining, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Ossining NY a convenient choice for both local and long-distance travel.\n\nBook Your Ossining Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Ossining NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in ossining ny"
+        introduction: "If you live in Ossining, New York, and need reliable, professional transportation, our Westchester limousine service in Ossining NY is designed for you. As a charming Hudson River village, Ossining offers historic charm and modern amenities. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Ossining residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Ossining Residents",
+            content: "Ossining's unique blend of historic charm and modern amenities creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Ossining NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Ossining, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Ossining to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Ossining NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Ossining is home to many businesses and corporate offices. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Ossining NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Ossining and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Ossining NY?",
+            content: "Ossining residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Ossining and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Ossining and Surrounding Areas",
+            content: "Although we specialize in Ossining, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Ossining NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -193,19 +535,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Wedding Limousine Services", "Corporate Transportation", "Airport Services", "Special Events"],
       businessDistricts: ["Downtown Tarrytown", "Main Street", "Broadway Corridor"],
       nearbyAttractions: ["Lyndhurst Mansion", "Sleepy Hollow", "Tarrytown Music Hall", "Kingsland Point Park"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "60-80 minutes" },
-        { destination: "LaGuardia Airport", time: "50-70 minutes" },
-        { destination: "Newark Airport", time: "80-100 minutes" },
-        { destination: "Manhattan", time: "45-60 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Tarrytown NY",
-        seoTitle: "Westchester Limousine Service in Tarrytown, NY",
-        metaDescription: "Picturesque Hudson River limousine service in Tarrytown, NY. Historic sites transportation to airports, Manhattan, and events.",
-        urlSlug: "westchester-limousine-tarrytown-ny",
-        content: "Westchester Limousine Service in Tarrytown, NY\n\nIf you live in Tarrytown, New York, and need reliable, professional transportation, our Westchester limousine service in Tarrytown NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Tarrytown residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Tarrytown Residents\n\nTarrytown is a picturesque Hudson River village known for its historic sites and scenic beauty. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Tarrytown NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Tarrytown, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Tarrytown to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Tarrytown NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nTarrytown is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Tarrytown and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Tarrytown NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Tarrytown NY?\n\nTarrytown residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Tarrytown and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Tarrytown and Surrounding Areas\n\nAlthough we specialize in Tarrytown, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Tarrytown NY a convenient choice for both local and long-distance travel.\n\nBook Your Tarrytown Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Tarrytown NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in tarrytown ny"
+        introduction: "If you live in Tarrytown, New York, and need reliable, professional transportation, our Westchester limousine service in Tarrytown NY is designed for you. As a picturesque Hudson River village, Tarrytown is known for its historic sites and scenic beauty. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Tarrytown residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Tarrytown Residents",
+            content: "Tarrytown's historic charm and scenic location create unique transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Tarrytown NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Tarrytown, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Tarrytown to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Tarrytown NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Tarrytown is home to many businesses and corporate offices. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Tarrytown NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Tarrytown and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Tarrytown NY?",
+            content: "Tarrytown residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Tarrytown and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Tarrytown and Surrounding Areas",
+            content: "Although we specialize in Tarrytown, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Tarrytown NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -222,19 +621,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Executive Transportation", "Airport Services", "Wedding Services", "Corporate Events"],
       businessDistricts: ["Scarsdale Village", "Eastchester Road", "Post Road"],
       nearbyAttractions: ["Weinberg Nature Center", "Scarsdale Golf Club", "Harwood Park"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "50-65 minutes" },
-        { destination: "LaGuardia Airport", time: "35-50 minutes" },
-        { destination: "Newark Airport", time: "65-80 minutes" },
-        { destination: "Manhattan", time: "30-45 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Scarsdale NY",
-        seoTitle: "Westchester Limousine Service in Scarsdale, NY",
-        metaDescription: "Affluent suburban limousine service in Scarsdale, NY. Premium transportation for executives, airports, and special events.",
-        urlSlug: "westchester-limousine-scarsdale-ny",
-        content: "Westchester Limousine Service in Scarsdale, NY\n\nIf you live in Scarsdale, New York, and need reliable, professional transportation, our Westchester limousine service in Scarsdale NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Scarsdale residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Scarsdale Residents\n\nScarsdale is an affluent suburban community known for its excellent schools and beautiful residential areas. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Scarsdale NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Scarsdale, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Scarsdale to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Scarsdale NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nScarsdale is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Scarsdale and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Scarsdale NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Scarsdale NY?\n\nScarsdale residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Scarsdale and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Scarsdale and Surrounding Areas\n\nAlthough we specialize in Scarsdale, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Scarsdale NY a convenient choice for both local and long-distance travel.\n\nBook Your Scarsdale Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Scarsdale NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in scarsdale ny"
+        introduction: "If you live in Scarsdale, New York, and need reliable, professional transportation, our Westchester limousine service in Scarsdale NY is designed for you. As an affluent suburban community, Scarsdale is known for its excellent schools and beautiful residential areas. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Scarsdale residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Scarsdale Residents",
+            content: "Scarsdale's affluent community creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Scarsdale NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Scarsdale, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Scarsdale to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Scarsdale NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Scarsdale is home to many corporate executives and business professionals. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Scarsdale NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Scarsdale and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Scarsdale NY?",
+            content: "Scarsdale residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Scarsdale and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Scarsdale and Surrounding Areas",
+            content: "Although we specialize in Scarsdale, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Scarsdale NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -251,19 +707,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Corporate Transportation", "Airport Services", "Wedding Services", "Special Events"],
       businessDistricts: ["Purchase Street", "Rye Village", "Boston Post Road"],
       nearbyAttractions: ["Rye Playland", "Rye Town Park", "Rye Golf Club", "Rye Nature Center"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "55-70 minutes" },
-        { destination: "LaGuardia Airport", time: "40-55 minutes" },
-        { destination: "Newark Airport", time: "70-85 minutes" },
-        { destination: "Manhattan", time: "35-50 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Rye NY",
-        seoTitle: "Westchester Limousine Service in Rye, NY",
-        metaDescription: "Coastal city limousine service in Rye, NY. Beautiful waterfront transportation to airports, Manhattan, and special events.",
-        urlSlug: "westchester-limousine-rye-ny",
-        content: "Westchester Limousine Service in Rye, NY\n\nIf you live in Rye, New York, and need reliable, professional transportation, our Westchester limousine service in Rye NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Rye residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Rye Residents\n\nRye is a coastal city on Long Island Sound with beautiful waterfront views and excellent access to Manhattan. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Rye NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Rye, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Rye to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Rye NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nRye is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Rye and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Rye NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Rye NY?\n\nRye residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Rye and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Rye and Surrounding Areas\n\nAlthough we specialize in Rye, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Rye NY a convenient choice for both local and long-distance travel.\n\nBook Your Rye Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Rye NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in rye ny"
+        introduction: "If you live in Rye, New York, and need reliable, professional transportation, our Westchester limousine service in Rye NY is designed for you. As a coastal city on Long Island Sound, Rye offers beautiful waterfront views and excellent access to Manhattan. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Rye residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Rye Residents",
+            content: "Rye's coastal location and proximity to Manhattan create diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Rye NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Rye, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Rye to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Rye NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Rye is home to many corporate executives and business professionals. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Rye NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Rye and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Rye NY?",
+            content: "Rye residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Rye and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Rye and Surrounding Areas",
+            content: "Although we specialize in Rye, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Rye NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -280,19 +793,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Airport Transportation", "Corporate Services", "Wedding Services", "Event Transportation"],
       businessDistricts: ["Mamaroneck Avenue", "Boston Post Road", "Mamaroneck Village"],
       nearbyAttractions: ["Harbor Island Park", "Mamaroneck Beach", "Orienta Point Beach"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "50-65 minutes" },
-        { destination: "LaGuardia Airport", time: "35-50 minutes" },
-        { destination: "Newark Airport", time: "65-80 minutes" },
-        { destination: "Manhattan", time: "30-45 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Mamaroneck NY",
-        seoTitle: "Westchester Limousine Service in Mamaroneck, NY",
-        metaDescription: "Waterfront village limousine service in Mamaroneck, NY. Scenic Long Island Sound transportation to airports and events.",
-        urlSlug: "westchester-limousine-mamaroneck-ny",
-        content: "Westchester Limousine Service in Mamaroneck, NY\n\nIf you live in Mamaroneck, New York, and need reliable, professional transportation, our Westchester limousine service in Mamaroneck NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Mamaroneck residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Mamaroneck Residents\n\nMamaroneck is a waterfront village on Long Island Sound with scenic beauty and a vibrant community. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Mamaroneck NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Mamaroneck, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Mamaroneck to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Mamaroneck NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nMamaroneck is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Mamaroneck and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Mamaroneck NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Mamaroneck NY?\n\nMamaroneck residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Mamaroneck and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Mamaroneck and Surrounding Areas\n\nAlthough we specialize in Mamaroneck, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Mamaroneck NY a convenient choice for both local and long-distance travel.\n\nBook Your Mamaroneck Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Mamaroneck NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in mamaroneck ny"
+        introduction: "If you live in Mamaroneck, New York, and need reliable, professional transportation, our Westchester limousine service in Mamaroneck NY is designed for you. As a waterfront village on Long Island Sound, Mamaroneck offers scenic beauty and a vibrant community. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Mamaroneck residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Mamaroneck Residents",
+            content: "Mamaroneck's waterfront location and vibrant community create diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Mamaroneck NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Mamaroneck, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Mamaroneck to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Mamaroneck NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Mamaroneck is home to many businesses and corporate offices. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Mamaroneck NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Mamaroneck and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Mamaroneck NY?",
+            content: "Mamaroneck residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Mamaroneck and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Mamaroneck and Surrounding Areas",
+            content: "Although we specialize in Mamaroneck, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Mamaroneck NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -309,19 +879,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Corporate Transportation", "Airport Services", "Wedding Services", "Special Events"],
       businessDistricts: ["Harrison Avenue", "Halstead Avenue", "Downtown Harrison"],
       nearbyAttractions: ["Harrison Public Library", "Westchester Country Club"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "50-65 minutes" },
-        { destination: "LaGuardia Airport", time: "35-50 minutes" },
-        { destination: "Newark Airport", time: "65-80 minutes" },
-        { destination: "Manhattan", time: "30-45 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Harrison NY",
-        seoTitle: "Westchester Limousine Service in Harrison, NY",
-        metaDescription: "Suburban limousine service in Harrison, NY. Excellent access to Manhattan and airports with professional chauffeurs.",
-        urlSlug: "westchester-limousine-harrison-ny",
-        content: "Westchester Limousine Service in Harrison, NY\n\nIf you live in Harrison, New York, and need reliable, professional transportation, our Westchester limousine service in Harrison NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Harrison residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Harrison Residents\n\nHarrison is a suburban town in southern Westchester with excellent access to Manhattan and airports. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Harrison NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Harrison, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Harrison to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Harrison NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nHarrison is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Harrison and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Harrison NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Harrison NY?\n\nHarrison residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Harrison and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Harrison and Surrounding Areas\n\nAlthough we specialize in Harrison, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Harrison NY a convenient choice for both local and long-distance travel.\n\nBook Your Harrison Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Harrison NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in harrison ny"
+        introduction: "If you live in Harrison, New York, and need reliable, professional transportation, our Westchester limousine service in Harrison NY is designed for you. As a suburban town in southern Westchester, Harrison offers excellent access to Manhattan and airports. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Harrison residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Harrison Residents",
+            content: "Harrison's strategic location creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Harrison NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Harrison, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Harrison to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Harrison NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Harrison is home to many businesses and corporate offices. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Harrison NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Harrison and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Harrison NY?",
+            content: "Harrison residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Harrison and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Harrison and Surrounding Areas",
+            content: "Although we specialize in Harrison, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Harrison NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     },
     {
@@ -338,19 +965,76 @@ export const westchesterCountyData: AreaData = {
       localServices: ["Executive Transportation", "Airport Services", "Wedding Services", "Corporate Events"],
       businessDistricts: ["Bronxville Village", "Pondfield Road", "Palmer Avenue"],
       nearbyAttractions: ["Sarah Lawrence College", "Bronxville Public Library"],
-      travelTimes: [
-        { destination: "JFK Airport", time: "50-65 minutes" },
-        { destination: "LaGuardia Airport", time: "35-50 minutes" },
-        { destination: "Newark Airport", time: "65-80 minutes" },
-        { destination: "Manhattan", time: "30-45 minutes" }
-      ],
+      travelTimes: [],
       seoContent: {
-        focusKeyphrase: "Westchester limousine service in Bronxville NY",
-        seoTitle: "Westchester Limousine Service in Bronxville, NY",
-        metaDescription: "Affluent village limousine service in Bronxville, NY. Charming downtown transportation to airports and corporate events.",
-        urlSlug: "westchester-limousine-bronxville-ny",
-        content: "Westchester Limousine Service in Bronxville, NY\n\nIf you live in Bronxville, New York, and need reliable, professional transportation, our Westchester limousine service in Bronxville NY is designed for you. We provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion.\n\nOur experienced chauffeurs and premium fleet ensure that Bronxville residents enjoy stress-free transportation throughout Westchester County and beyond.\n\nLuxury Limousine Services for Bronxville Residents\n\nBronxville is an affluent village in southern Westchester known for its charming downtown and excellent schools. Because of that, our limousine services are tailored to meet the daily and special transportation needs of local residents.\n\nOur Westchester limousine service in Bronxville NY is ideal for:\n\nDaily commuters\n\nCorporate executives\n\nFamilies and groups\n\nEvent and wedding guests\n\nAdditionally, we focus on reliability and comfort, so you can travel with confidence every time.\n\nAirport Transportation from Bronxville, NY\n\nGetting to the airport on time is essential. Therefore, we offer dependable airport limo services from Bronxville to all major airports.\n\nAirports We Serve\n\nJFK International Airport\n\nLaGuardia Airport\n\nNewark Liberty International Airport\n\nWestchester County Airport (HPN)\n\nWith real-time flight tracking and professional chauffeurs, our Westchester limousine service in Bronxville NY ensures smooth and on-time airport transfers.\n\nCorporate & Business Limousine Services\n\nBronxville is home to many corporate offices and business centers. As a result, we specialize in executive transportation that reflects professionalism and reliability.\n\nOur corporate limousine services include:\n\nClient pickups and drop-offs\n\nCorporate meetings and conferences\n\nRoadshows and business events\n\nDaily executive transportation\n\nMoreover, our discreet and punctual chauffeurs make business travel seamless.\n\nSpecial Event & Wedding Limousine Services\n\nWhether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience.\n\nWe frequently serve:\n\nWeddings in Bronxville and Westchester County\n\nProms and school events\n\nBirthday celebrations\n\nNights out in NYC\n\nOur Westchester limousine service in Bronxville NY helps you arrive in style while enjoying a relaxed ride.\n\nOur Premium Fleet\n\nWe maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety.\n\nOur fleet includes:\n\nLuxury sedans\n\nStretch limousines\n\nSUVs\n\nExecutive vans\n\nIn addition, all vehicles offer climate control, plush seating, and ample space.\n\nWhy Choose Our Westchester Limousine Service in Bronxville NY?\n\nBronxville residents choose us because we consistently deliver quality service.\n\nWhat Sets Us Apart\n\nProfessional, licensed chauffeurs\n\nOn-time pickups and drop-offs\n\nCompetitive and transparent pricing\n\nLocal knowledge of Bronxville and Westchester County\n\n24/7 customer support\n\nBecause customer satisfaction is our priority, we focus on every detail of your journey.\n\nServing Bronxville and Surrounding Areas\n\nAlthough we specialize in Bronxville, our services extend throughout:\n\nWestchester County\n\nManhattan and NYC\n\nConnecticut\n\nNew Jersey\n\nThis makes our Westchester limousine service in Bronxville NY a convenient choice for both local and long-distance travel.\n\nBook Your Bronxville Limousine Today\n\nIf you are looking for a dependable and luxurious ride, our Westchester limousine service in Bronxville NY is ready to serve you. Contact us today to book your limousine and experience premium transportation tailored to your needs.",
-        imageAltText: "westchester limousine service in bronxville ny"
+        introduction: "If you live in Bronxville, New York, and need reliable, professional transportation, our Westchester limousine service in Bronxville NY is designed for you. As an affluent village in southern Westchester, Bronxville is known for its charming downtown and excellent schools. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Bronxville residents enjoy stress-free transportation with Westchester Limousine throughout the region.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Bronxville Residents",
+            content: "Bronxville's affluent community and proximity to Manhattan create diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Bronxville NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Bronxville, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Bronxville to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Bronxville NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Bronxville is home to many corporate executives and business professionals. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Bronxville NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Bronxville and Westchester County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Bronxville NY?",
+            content: "Bronxville residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Bronxville and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Bronxville and Surrounding Areas",
+            content: "Although we specialize in Bronxville, our services extend throughout Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Bronxville NY a convenient choice for both local and long-distance travel."
+          }
+        ]
       }
     }
   ],

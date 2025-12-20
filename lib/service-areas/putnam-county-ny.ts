@@ -24,7 +24,77 @@ export const putnamCountyData: AreaData = {
         { destination: "LaGuardia Airport", time: "65-85 minutes" },
         { destination: "Newark Airport", time: "95-115 minutes" },
         { destination: "Manhattan", time: "60-75 minutes" }
-      ]
+      ],
+      seoContent: {
+        introduction: "If you live in Carmel, New York, and need reliable, professional transportation, our Westchester limousine service in Carmel NY is designed for you. As the county seat of Putnam County, Carmel offers a mix of suburban charm and natural beauty. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Carmel residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Carmel Residents",
+            content: "Carmel's status as the county seat creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Carmel NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Carmel, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Carmel to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Carmel NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Carmel is home to many government offices and businesses. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Carmel NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Carmel and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Carmel NY?",
+            content: "Carmel residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Carmel and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Carmel and Surrounding Areas",
+            content: "Although we specialize in Carmel, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Carmel NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     },
     {
       name: "Mahopac",
@@ -45,7 +115,77 @@ export const putnamCountyData: AreaData = {
         { destination: "LaGuardia Airport", time: "60-80 minutes" },
         { destination: "Newark Airport", time: "90-110 minutes" },
         { destination: "Manhattan", time: "55-70 minutes" }
-      ]
+      ],
+      seoContent: {
+        introduction: "If you live in Mahopac, New York, and need reliable, professional transportation, our Westchester limousine service in Mahopac NY is designed for you. As a lakeside community, Mahopac offers scenic beauty and a relaxed atmosphere. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Mahopac residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Mahopac Residents",
+            content: "Mahopac's scenic location and community create diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Mahopac NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Mahopac, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Mahopac to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Mahopac NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Mahopac is home to many professionals and business owners. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Mahopac NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Mahopac and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Mahopac NY?",
+            content: "Mahopac residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Mahopac and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Mahopac and Surrounding Areas",
+            content: "Although we specialize in Mahopac, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Mahopac NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     },
     {
       name: "Brewster",
@@ -66,7 +206,77 @@ export const putnamCountyData: AreaData = {
         { destination: "LaGuardia Airport", time: "70-90 minutes" },
         { destination: "Newark Airport", time: "100-120 minutes" },
         { destination: "Manhattan", time: "65-80 minutes" }
-      ]
+      ],
+      seoContent: {
+        introduction: "If you live in Brewster, New York, and need reliable, professional transportation, our Westchester limousine service in Brewster NY is designed for you. As a historic village, Brewster offers easy access to major highways and airports. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Brewster residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Brewster Residents",
+            content: "Brewster's strategic location creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Brewster NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Brewster, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Brewster to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Brewster NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Brewster is home to many businesses and commuters. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Brewster NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Brewster and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Brewster NY?",
+            content: "Brewster residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Brewster and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Brewster and Surrounding Areas",
+            content: "Although we specialize in Brewster, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Brewster NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     },
     {
       name: "Putnam Valley",
@@ -87,7 +297,77 @@ export const putnamCountyData: AreaData = {
         { destination: "LaGuardia Airport", time: "75-95 minutes" },
         { destination: "Newark Airport", time: "105-125 minutes" },
         { destination: "Manhattan", time: "70-85 minutes" }
-      ]
+      ],
+      seoContent: {
+        introduction: "If you live in Putnam Valley, New York, and need reliable, professional transportation, our Westchester limousine service in Putnam Valley NY is designed for you. As a rural community, Putnam Valley offers natural beauty and tranquility. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Putnam Valley residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Putnam Valley Residents",
+            content: "Putnam Valley's rural setting creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Putnam Valley NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Putnam Valley, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Putnam Valley to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Putnam Valley NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Putnam Valley is home to many professionals who value privacy and comfort. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Putnam Valley NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Putnam Valley and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Putnam Valley NY?",
+            content: "Putnam Valley residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Putnam Valley and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Putnam Valley and Surrounding Areas",
+            content: "Although we specialize in Putnam Valley, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Putnam Valley NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     },
     {
       name: "Cold Spring",
@@ -108,7 +388,77 @@ export const putnamCountyData: AreaData = {
         { destination: "LaGuardia Airport", time: "75-95 minutes" },
         { destination: "Newark Airport", time: "105-125 minutes" },
         { destination: "Manhattan", time: "70-85 minutes" }
-      ]
+      ],
+      seoContent: {
+        introduction: "If you live in Cold Spring, New York, and need reliable, professional transportation, our Westchester limousine service in Cold Spring NY is designed for you. As a charming Hudson River village, Cold Spring offers historic charm and scenic beauty. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Cold Spring residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Cold Spring Residents",
+            content: "Cold Spring's historic charm and riverfront location create diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Cold Spring NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Cold Spring, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Cold Spring to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Cold Spring NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Cold Spring is home to many professionals and business owners. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Cold Spring NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Cold Spring and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Cold Spring NY?",
+            content: "Cold Spring residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Cold Spring and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Cold Spring and Surrounding Areas",
+            content: "Although we specialize in Cold Spring, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Cold Spring NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     },
     {
       name: "Garrison",
@@ -129,7 +479,77 @@ export const putnamCountyData: AreaData = {
         { destination: "LaGuardia Airport", time: "80-100 minutes" },
         { destination: "Newark Airport", time: "110-130 minutes" },
         { destination: "Manhattan", time: "75-90 minutes" }
-      ]
+      ],
+      seoContent: {
+        introduction: "If you live in Garrison, New York, and need reliable, professional transportation, our Westchester limousine service in Garrison NY is designed for you. As a scenic Hudson River community, Garrison offers historic sites and natural beauty. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Garrison residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Garrison Residents",
+            content: "Garrison's scenic location and historic sites create diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Garrison NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Garrison, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Garrison to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Garrison NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Garrison is home to many professionals and business owners. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Garrison NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Garrison and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Garrison NY?",
+            content: "Garrison residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Garrison and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Garrison and Surrounding Areas",
+            content: "Although we specialize in Garrison, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Garrison NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     },
     {
       name: "Patterson",
@@ -150,7 +570,77 @@ export const putnamCountyData: AreaData = {
         { destination: "LaGuardia Airport", time: "75-95 minutes" },
         { destination: "Newark Airport", time: "105-125 minutes" },
         { destination: "Manhattan", time: "70-85 minutes" }
-      ]
+      ],
+      seoContent: {
+        introduction: "If you live in Patterson, New York, and need reliable, professional transportation, our Westchester limousine service in Patterson NY is designed for you. As a rural town in Putnam County, Patterson offers natural beauty and a peaceful atmosphere. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Patterson residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Patterson Residents",
+            content: "Patterson's rural setting creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Patterson NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Patterson, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Patterson to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Patterson NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Patterson is home to many professionals who value privacy and comfort. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Patterson NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Patterson and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Patterson NY?",
+            content: "Patterson residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Patterson and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Patterson and Surrounding Areas",
+            content: "Although we specialize in Patterson, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Patterson NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     },
     {
       name: "Southeast",
@@ -171,7 +661,77 @@ export const putnamCountyData: AreaData = {
         { destination: "LaGuardia Airport", time: "70-90 minutes" },
         { destination: "Newark Airport", time: "100-120 minutes" },
         { destination: "Manhattan", time: "65-80 minutes" }
-      ]
+      ],
+      seoContent: {
+        introduction: "If you live in Southeast, New York, and need reliable, professional transportation, our Westchester limousine service in Southeast NY is designed for you. As a town in Putnam County, Southeast offers a mix of residential and rural areas. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Southeast residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Southeast Residents",
+            content: "Southeast's diverse community creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Southeast NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Southeast, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Southeast to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Southeast NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Southeast is home to many businesses and commuters. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Southeast NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Southeast and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Southeast NY?",
+            content: "Southeast residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Southeast and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Southeast and Surrounding Areas",
+            content: "Although we specialize in Southeast, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Southeast NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     }
   ],
   features: [
