@@ -5,7 +5,7 @@ import { Award, Clock, Shield, Users } from "lucide-react"
 export function HomeAboutUs() {
   return (
     <section
-      className="relative py-24 overflow-hidden"
+      className="relative py-12 sm:py-16 overflow-hidden"
       id="about"
       itemScope
       itemType="https://schema.org/LocalBusiness"
@@ -19,7 +19,7 @@ export function HomeAboutUs() {
         itemProp="address"
         content="Westchester County, New York, United States"
       />
-      <meta itemProp="telephone" content="+1-914-555-1234" />
+      <meta itemProp="telephone" content="+1-914-222-1919" />
 
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 via-background to-secondary/20"></div>
@@ -28,20 +28,20 @@ export function HomeAboutUs() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/20 rounded-full mb-4">
-            <span className="text-sm font-semibold text-accent">WHO WE ARE</span>
+        <div className="text-center mb-8 sm:mb-12">
+          <div className="inline-block px-3 py-1.5 bg-accent/10 border border-accent/20 rounded-full mb-3">
+            <span className="text-xs sm:text-sm font-semibold text-accent">WHO WE ARE</span>
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-2 sm:mb-3">
             About Westchester Limousine
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
             Redefining luxury transportation with comfort, style, and unwavering reliability
           </p>
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-center mb-8 sm:mb-12">
           
           {/* Image Side with Overlapping Cards */}
           <div className="relative">
@@ -59,22 +59,22 @@ export function HomeAboutUs() {
             </div>
             
             {/* Floating Stats Card */}
-            <div className="absolute -bottom-8 -right-8 bg-card border border-border rounded-xl shadow-xl p-6 max-w-xs">
-              <div className="flex items-center space-x-4">
-                <div className="bg-accent/10 p-3 rounded-lg">
-                  <Award className="h-8 w-8 text-accent" />
+            <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 bg-card border border-border rounded-xl shadow-xl p-3 sm:p-4 max-w-xs">
+              <div className="flex items-center space-x-2 sm:space-x-3">
+                <div className="bg-accent/10 p-2 sm:p-2.5 rounded-lg">
+                  <Award className="h-5 w-5 sm:h-6 sm:w-6 text-accent" />
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-foreground">25+</div>
-                  <div className="text-sm text-muted-foreground">Years of Excellence</div>
+                  <div className="text-xl sm:text-2xl font-bold text-foreground">25+</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Years of Excellence</div>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Content Side */}
-          <div className="space-y-6">
-            <div className="space-y-4 text-muted-foreground leading-relaxed text-lg text-justify">
+          <div className="space-y-4 sm:space-y-5">
+            <div className="space-y-3 text-muted-foreground leading-relaxed text-sm sm:text-base text-justify">
               <p className="text-justify">
                 Based in <strong className="text-foreground">Westchester County, New York</strong>, we proudly serve clients across
                 Putnam, Dutchess, Rockland County, Connecticut and the
@@ -96,20 +96,22 @@ export function HomeAboutUs() {
               </p>
             </div>
 
-            <a
-              href="/about"
-              className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-accent rounded-xl shadow-lg hover:bg-accent/90 transition-all hover:shadow-xl hover:scale-105"
-            >
-              Know More About Us
-              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </a>
+            <div className="flex justify-center">
+              <a
+                href="/about"
+                className="inline-flex items-center px-5 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base font-semibold text-white bg-accent rounded-xl shadow-lg hover:bg-accent/90 transition-all hover:shadow-xl hover:scale-105"
+              >
+                Know More About Us
+                <svg className="ml-2 w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Feature Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
           {[
             {
               icon: Clock,
@@ -134,13 +136,13 @@ export function HomeAboutUs() {
           ].map((feature, index) => (
             <div 
               key={index} 
-              className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-all hover:scale-105"
+              className="bg-card border border-border rounded-xl p-4 sm:p-5 hover:shadow-lg transition-all hover:scale-105"
             >
-              <div className="bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                <feature.icon className="h-6 w-6 text-accent" />
+              <div className="bg-accent/10 w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center mb-3">
+                <feature.icon className="h-5 w-5 sm:h-6 sm:w-6 text-accent" />
               </div>
-              <h3 className="text-lg font-bold text-foreground mb-2">{feature.title}</h3>
-              <p className="text-sm text-muted-foreground">{feature.description}</p>
+              <h3 className="text-base sm:text-lg font-bold text-foreground mb-1.5 sm:mb-2">{feature.title}</h3>
+              <p className="text-xs sm:text-sm text-muted-foreground">{feature.description}</p>
             </div>
           ))}
         </div>
