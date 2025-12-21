@@ -102,8 +102,7 @@ export function Footer() {
               <div className="flex items-start justify-center md:justify-start space-x-2">
                 <MapPin className="h-4 w-4 mt-1" />
                 <div>
-                  <p>2945 Lexington Avenue</p>
-                  <p>Mohegan Lake 10547</p>
+                  <p>2945 Lexington Avenue, Mohegan Lake, 10547</p>
                   <p className="text-sm mt-1">Serving Westchester, Putnam, Dutchess Counties, Fairfield County (CT) & NYC Metro Area</p>
                 </div>
               </div>

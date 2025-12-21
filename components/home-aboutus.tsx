@@ -17,7 +17,7 @@ export function HomeAboutUs() {
       />
       <meta
         itemProp="address"
-        content="Westchester County, New York, United States"
+        content="2945 Lexington Avenue, Mohegan Lake, 10547, New York, United States"
       />
       <meta itemProp="telephone" content="+1-914-222-1919" />
 

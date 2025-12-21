@@ -177,10 +177,18 @@ export default function AboutPage() {
               <Button size="lg" variant="secondary" asChild>
                 <Link href="/contact">Book Now</Link>
               </Button>
-              <p className="mt-6 text-sm text-primary-foreground/70">
-                Serving Westchester County and the Tri-State Area with professional, reliable, and luxurious transportation
-                since 1995.
-              </p>
+              <div className="mt-6 space-y-2 text-sm text-primary-foreground/70">
+                <p>
+                  Serving Westchester County and the Tri-State Area with professional, reliable, and luxurious transportation
+                  since 1995.
+                </p>
+                <p>
+                  <strong>Address:</strong> 2945 Lexington Avenue, Mohegan Lake, 10547
+                </p>
+                <p>
+                  <strong>Email:</strong> <a href="mailto:info.westchesterlimousine@gmail.com" className="text-accent hover:underline">info.westchesterlimousine@gmail.com</a>
+                </p>
+              </div>
             </div>
           </div>
         </section>

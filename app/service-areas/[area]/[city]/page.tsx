@@ -63,8 +63,10 @@ export default function CityPage({ params }: { params: { area: string; city: str
     "description": `Professional limousine and chauffeur services in ${city.name}, ${area.name}`,
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": city.name,
-      "addressRegion": area.name.includes("NY") ? "NY" : area.name.includes("CT") ? "CT" : "NY",
+      "streetAddress": "2945 Lexington Avenue",
+      "addressLocality": "Mohegan Lake",
+      "addressRegion": "NY",
+      "postalCode": "10547",
       "addressCountry": "US"
     },
     "areaServed": {

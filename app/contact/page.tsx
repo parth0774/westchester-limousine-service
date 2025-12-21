@@ -59,12 +59,8 @@ export default function ContactPage() {
                   <h3 className="text-lg font-semibold flex items-center gap-2">Contact Information</h3>
                   <div className="space-y-3 text-muted-foreground">
                     <p><strong>Phone:</strong> (914) 222-1919</p>
-                    <div className="flex items-center gap-2">
-                      <strong className="min-w-[60px]">Email:</strong>
-                      <a href="mailto:info.westchesterlimousine@gmail.com">
-                        <img src="/email-address.png" alt="Email Address" className="h-4 w-auto object-contain opacity-80 mt-1" />
-                      </a>
-                    </div>
+                    <p><strong>Email:</strong> <a href="mailto:info.westchesterlimousine@gmail.com" className="text-accent hover:underline">info.westchesterlimousine@gmail.com</a></p>
+                    <p><strong>Address:</strong> 2945 Lexington Avenue, Mohegan Lake, 10547</p>
                     <p><strong>Availability:</strong> 24/7 Service</p>
                     <p><strong>Office Hours:</strong> Mon-Sun 8AM-6PM</p>
                   </div>
