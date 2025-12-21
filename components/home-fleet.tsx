@@ -118,15 +118,27 @@ export function HomeFleet() {
                     {vehicle.description}
                   </p>
                   
-                  <Button 
-                    asChild 
-                    className="w-full bg-accent hover:bg-accent/90 text-white group/btn"
-                  >
-                    <Link href="/contact" className="flex items-center justify-center">
-                      Get a Quote
-                      <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                    </Link>
-                  </Button>
+                  <div className="flex gap-2">
+                    <Button 
+                      asChild 
+                      variant="outline"
+                      className="flex-1 border-accent text-accent hover:bg-accent hover:text-white group/btn"
+                    >
+                      <Link href="/fleet" className="flex items-center justify-center">
+                        View Fleet
+                        <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
+                      </Link>
+                    </Button>
+                    <Button 
+                      asChild 
+                      className="flex-1 bg-accent hover:bg-accent/90 text-white group/btn2"
+                    >
+                      <Link href="/contact" className="flex items-center justify-center">
+                        Get Quote
+                        <ArrowRight className="ml-2 h-4 w-4 group-hover/btn2:translate-x-1 transition-transform" />
+                      </Link>
+                    </Button>
+                  </div>
                 </div>
 
                 {/* Hover Glow Effect */}

@@ -247,7 +247,7 @@ export default function AirportTransportationBlog() {
                   Plan Ahead for Peace of Mind
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  The key to stress-free airport transportation in Westchester County is advance booking. We recommend reserving your limousine service at least 24-48 hours before your flight, especially during peak travel seasons like holidays, summer vacation periods, and major business conference dates. Early booking ensures vehicle availability and allows our dispatch team to optimize routes and timing.
+                  The key to stress-free <Link href="/services/airport" className="text-blue-600 hover:underline font-semibold">airport transportation in Westchester County</Link> is advance booking. We recommend reserving your limousine service at least 24-48 hours before your flight, especially during peak travel seasons like holidays, summer vacation periods, and major business conference dates. Early booking ensures vehicle availability and allows our dispatch team to optimize routes and timing.
                 </p>
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -264,9 +264,9 @@ export default function AirportTransportationBlog() {
                   Vehicle selection depends on your group size, luggage requirements, and comfort preferences:
                 </p>
                 <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
-                  <li><strong>Luxury Sedans:</strong> Perfect for solo travelers or couples with standard luggage. Ideal for business travelers heading to JFK or LaGuardia from White Plains or Scarsdale.</li>
+                  <li><strong>Luxury Sedans:</strong> Perfect for solo travelers or couples with standard luggage. Ideal for business travelers heading to JFK or LaGuardia from <Link href="/service-areas/westchester-county-ny/white-plains" className="text-blue-600 hover:underline">White Plains</Link> or <Link href="/service-areas/westchester-county-ny/scarsdale" className="text-blue-600 hover:underline">Scarsdale</Link>.</li>
                   <li><strong>Executive SUVs:</strong> Great for families or small groups (up to 6 passengers). Offers extra luggage space and premium comfort for Newark or JFK trips.</li>
-                  <li><strong>Mercedes Sprinter Vans:</strong> Best for larger groups (up to 14 passengers) or corporate teams. Perfect for group travel from Westchester County to any airport with ample luggage capacity.</li>
+                  <li><strong>Mercedes Sprinter Vans:</strong> Best for larger groups (up to 14 passengers) or corporate teams. Perfect for group travel from <Link href="/service-areas/westchester-county-ny" className="text-blue-600 hover:underline">Westchester County</Link> to any airport with ample luggage capacity.</li>
                 </ul>
 
                 <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 my-8">
@@ -307,7 +307,7 @@ export default function AirportTransportationBlog() {
                 </div>
 
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Airport pickups require special coordination, and our Westchester limousine service has perfected the process. For domestic arrivals at JFK, LaGuardia, or Newark, chauffeurs arrive 15-20 minutes before your scheduled landing time. For international arrivals, we allow extra time for customs and baggage claim (typically 30-45 minutes after landing).
+                  Airport pickups require special coordination, and our <Link href="/services/airport" className="text-blue-600 hover:underline font-semibold">Westchester limousine service</Link> has perfected the process. For domestic arrivals at JFK, LaGuardia, or Newark, chauffeurs arrive 15-20 minutes before your scheduled landing time. For international arrivals, we allow extra time for customs and baggage claim (typically 30-45 minutes after landing).
                 </p>
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -341,7 +341,7 @@ export default function AirportTransportationBlog() {
                 </ul>
 
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Payment options include credit cards, corporate accounts, and mobile payment platforms. For frequent travelers, we offer corporate billing arrangements with monthly invoicing, making expense reporting simple for business professionals in White Plains, Scarsdale, and throughout Westchester County.
+                  Payment options include credit cards, corporate accounts, and mobile payment platforms. For frequent travelers, we offer <Link href="/services/corporate" className="text-blue-600 hover:underline font-semibold">corporate billing arrangements</Link> with monthly invoicing, making expense reporting simple for business professionals in <Link href="/service-areas/westchester-county-ny/white-plains" className="text-blue-600 hover:underline">White Plains</Link>, <Link href="/service-areas/westchester-county-ny/scarsdale" className="text-blue-600 hover:underline">Scarsdale</Link>, and throughout <Link href="/service-areas/westchester-county-ny" className="text-blue-600 hover:underline">Westchester County</Link>.
                 </p>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
@@ -543,6 +543,49 @@ export default function AirportTransportationBlog() {
               <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20" asChild>
                 <Link href="tel:914-222-1919">Call: (914) 222-1919</Link>
               </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Services */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                Explore Our Transportation Services
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <Link href="/services/corporate" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">
+                      Corporate Travel
+                    </h3>
+                    <p className="text-gray-600">
+                      Executive car service for business professionals with priority booking.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/services/hourly" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">
+                      Hourly Service
+                    </h3>
+                    <p className="text-gray-600">
+                      Flexible hourly limo service for meetings, shopping, or city-to-city transfers.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/service-areas" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">
+                      Service Areas
+                    </h3>
+                    <p className="text-gray-600">
+                      We serve Westchester County, Putnam, Dutchess, Fairfield County, and NYC.
+                    </p>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </section>

@@ -202,7 +202,7 @@ export default function WeddingLimousineBlog() {
                   When to Book Your Wedding Limousine
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Westchester County is home to numerous stunning wedding venues, making it a popular wedding destination year-round. For peak wedding season (May through October), we recommend booking your limousine service 6-9 months in advance. Popular Saturdays at sought-after venues like The Castle at Tarrytown or Westchester Country Club book quickly, especially for luxury vehicles like stretch limousines and large Sprinter vans. Winter and early spring weddings offer more flexibility, with 3-4 months advance booking typically sufficient.
+                  <Link href="/service-areas/westchester-county-ny" className="text-blue-600 hover:underline">Westchester County</Link> is home to numerous stunning wedding venues, making it a popular wedding destination year-round. For peak wedding season (May through October), we recommend booking your <Link href="/services/events" className="text-blue-600 hover:underline font-semibold">limousine service</Link> 6-9 months in advance. Popular Saturdays at sought-after venues like The Castle at <Link href="/service-areas/westchester-county-ny/tarrytown" className="text-blue-600 hover:underline">Tarrytown</Link> or Westchester Country Club book quickly, especially for luxury vehicles like stretch limousines and large Sprinter vans. Winter and early spring weddings offer more flexibility, with 3-4 months advance booking typically sufficient.
                 </p>
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -400,6 +400,49 @@ export default function WeddingLimousineBlog() {
               <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20" asChild>
                 <Link href="/services">View Wedding Fleet</Link>
               </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Services */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                Explore Our Transportation Services
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <Link href="/services/airport" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-rose-600">
+                      Airport Services
+                    </h3>
+                    <p className="text-gray-600">
+                      Reliable airport transfers for wedding guests traveling to JFK, LaGuardia, or Newark.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/services/corporate" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-rose-600">
+                      Corporate Events
+                    </h3>
+                    <p className="text-gray-600">
+                      Professional transportation for corporate events, conferences, and business gatherings.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/service-areas" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-rose-600">
+                      Service Areas
+                    </h3>
+                    <p className="text-gray-600">
+                      We serve Westchester County, Putnam, Dutchess, Fairfield County, and NYC.
+                    </p>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </section>

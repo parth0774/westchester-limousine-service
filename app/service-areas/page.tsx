@@ -1,8 +1,9 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
-import { MapPin, ArrowRight } from "lucide-react"
+import { MapPin, ArrowRight, Plane, Briefcase, Heart, Clock, Users } from "lucide-react"
 
 const serviceAreas = [
   {
@@ -105,6 +106,153 @@ export default function ServiceAreasPage() {
                   </div>
                 </Link>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Our Services */}
+        <section className="py-16 bg-secondary">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Our Transportation Services</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Plane className="h-5 w-5 text-accent" />
+                      Airport Services
+                    </CardTitle>
+                    <CardDescription>
+                      Reliable airport transfers to JFK, LaGuardia, Newark, and Westchester County Airport.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/airport">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Briefcase className="h-5 w-5 text-accent" />
+                      Corporate Travel
+                    </CardTitle>
+                    <CardDescription>
+                      Executive car service for business professionals with priority booking.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/corporate">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Heart className="h-5 w-5 text-accent" />
+                      Events & Weddings
+                    </CardTitle>
+                    <CardDescription>
+                      Luxury transportation for weddings, proms, and special events.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/events">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Clock className="h-5 w-5 text-accent" />
+                      Hourly Service
+                    </CardTitle>
+                    <CardDescription>
+                      Flexible hourly limo service for meetings, shopping, or city-to-city transfers.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/hourly">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Users className="h-5 w-5 text-accent" />
+                      School Transportation
+                    </CardTitle>
+                    <CardDescription>
+                      Safe and reliable private school transportation services.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/school">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Popular Cities */}
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-4 text-center">Popular Cities We Serve</h2>
+              <p className="text-center text-muted-foreground mb-8">
+                Click on any city below to learn more about our services in that location.
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <Link href="/service-areas/westchester-county-ny/white-plains" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors text-center">
+                  <h3 className="font-semibold text-foreground">White Plains</h3>
+                  <p className="text-sm text-muted-foreground">Westchester County</p>
+                </Link>
+                <Link href="/service-areas/westchester-county-ny/scarsdale" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors text-center">
+                  <h3 className="font-semibold text-foreground">Scarsdale</h3>
+                  <p className="text-sm text-muted-foreground">Westchester County</p>
+                </Link>
+                <Link href="/service-areas/westchester-county-ny/yonkers" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors text-center">
+                  <h3 className="font-semibold text-foreground">Yonkers</h3>
+                  <p className="text-sm text-muted-foreground">Westchester County</p>
+                </Link>
+                <Link href="/service-areas/westchester-county-ny/new-rochelle" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors text-center">
+                  <h3 className="font-semibold text-foreground">New Rochelle</h3>
+                  <p className="text-sm text-muted-foreground">Westchester County</p>
+                </Link>
+                <Link href="/service-areas/fairfield-county-ct/stamford" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors text-center">
+                  <h3 className="font-semibold text-foreground">Stamford</h3>
+                  <p className="text-sm text-muted-foreground">Fairfield County</p>
+                </Link>
+                <Link href="/service-areas/fairfield-county-ct/greenwich" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors text-center">
+                  <h3 className="font-semibold text-foreground">Greenwich</h3>
+                  <p className="text-sm text-muted-foreground">Fairfield County</p>
+                </Link>
+                <Link href="/service-areas/dutchess-county-ny/poughkeepsie" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors text-center">
+                  <h3 className="font-semibold text-foreground">Poughkeepsie</h3>
+                  <p className="text-sm text-muted-foreground">Dutchess County</p>
+                </Link>
+                <Link href="/service-areas/putnam-county-ny/carmel" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors text-center">
+                  <h3 className="font-semibold text-foreground">Carmel</h3>
+                  <p className="text-sm text-muted-foreground">Putnam County</p>
+                </Link>
+              </div>
             </div>
           </div>
         </section>

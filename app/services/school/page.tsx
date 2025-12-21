@@ -1,8 +1,9 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
-import { Shield, Users, Clock } from "lucide-react"
+import { Shield, Users, Clock, ArrowRight, Plane, Heart, MapPin } from "lucide-react"
 import { Metadata } from "next"
 import { Breadcrumbs } from "@/components/breadcrumbs"
 
@@ -107,6 +108,71 @@ export default function SchoolTransportationPage() {
                 <li>Fully licensed and insured drivers with child safety training</li>
                 <li>24/7 scheduling and support for schools and families</li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Content */}
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Related Services & Resources</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Plane className="h-5 w-5 text-accent" />
+                      Airport Services
+                    </CardTitle>
+                    <CardDescription>
+                      Reliable airport transfers for families traveling with children to JFK, LaGuardia, or Newark.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/airport">
+                        View Airport Services <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Heart className="h-5 w-5 text-accent" />
+                      Events & Special Occasions
+                    </CardTitle>
+                    <CardDescription>
+                      Safe and reliable transportation for school events, proms, graduations, and special occasions.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/events">
+                        View Event Services <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-accent" />
+                      Service Areas
+                    </CardTitle>
+                    <CardDescription>
+                      We serve all of Westchester County, Putnam, Dutchess, Fairfield County, and surrounding areas.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/service-areas">
+                        View Service Areas <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </section>

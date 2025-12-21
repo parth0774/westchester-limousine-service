@@ -2,7 +2,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { MapPin, Clock, Plane, Building2, CheckCircle, ArrowLeft, Navigation, Landmark } from "lucide-react"
+import { MapPin, Clock, Plane, Building2, CheckCircle, ArrowLeft, Navigation, Landmark, Briefcase, Heart, Users } from "lucide-react"
 import { notFound } from "next/navigation"
 import { areaData, getAllCities } from "@/lib/service-areas-data"
 import type { Metadata } from "next"
@@ -325,6 +325,83 @@ export default function CityPage({ params }: { params: { area: string; city: str
                     <span className="text-foreground">{reason}</span>
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Available Services */}
+        <section className="py-16 bg-secondary">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Transportation Services Available in {city.name}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <Link href="/services/airport" className="group">
+                  <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
+                    <div className="flex items-center gap-3 mb-3">
+                      <Plane className="h-6 w-6 text-accent" />
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Airport Services</h3>
+                    </div>
+                    <p className="text-muted-foreground">
+                      Reliable airport transfers to JFK, LaGuardia, Newark, and Westchester County Airport.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/services/corporate" className="group">
+                  <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
+                    <div className="flex items-center gap-3 mb-3">
+                      <Briefcase className="h-6 w-6 text-accent" />
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Corporate Travel</h3>
+                    </div>
+                    <p className="text-muted-foreground">
+                      Executive car service for business professionals with priority booking.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/services/events" className="group">
+                  <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
+                    <div className="flex items-center gap-3 mb-3">
+                      <Heart className="h-6 w-6 text-accent" />
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Events & Weddings</h3>
+                    </div>
+                    <p className="text-muted-foreground">
+                      Luxury transportation for weddings, proms, and special events.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/services/hourly" className="group">
+                  <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
+                    <div className="flex items-center gap-3 mb-3">
+                      <Clock className="h-6 w-6 text-accent" />
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Hourly Service</h3>
+                    </div>
+                    <p className="text-muted-foreground">
+                      Flexible hourly limo service for meetings, shopping, or city-to-city transfers.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/services/school" className="group">
+                  <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
+                    <div className="flex items-center gap-3 mb-3">
+                      <Users className="h-6 w-6 text-accent" />
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">School Transportation</h3>
+                    </div>
+                    <p className="text-muted-foreground">
+                      Safe and reliable private school transportation services.
+                    </p>
+                  </div>
+                </Link>
+                <Link href={`/service-areas/${params.area}`} className="group">
+                  <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
+                    <div className="flex items-center gap-3 mb-3">
+                      <MapPin className="h-6 w-6 text-accent" />
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">More Cities in {area.name}</h3>
+                    </div>
+                    <p className="text-muted-foreground">
+                      Explore our services in other cities throughout {area.name}.
+                    </p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

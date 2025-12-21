@@ -1,8 +1,9 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
-import { Clock, MapPin, Users } from "lucide-react"
+import { Clock, MapPin, Users, ArrowRight, Briefcase, Plane, Heart } from "lucide-react"
 import { Metadata } from "next"
 import { Breadcrumbs } from "@/components/breadcrumbs"
 
@@ -101,6 +102,89 @@ export default function HourlyCityPage() {
                 <li>Experienced chauffeurs trained in safety and professionalism</li>
                 <li>Full support and scheduling assistance for your needs</li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Content */}
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Related Services & Resources</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Briefcase className="h-5 w-5 text-accent" />
+                      Corporate Travel
+                    </CardTitle>
+                    <CardDescription>
+                      Executive car service for business professionals with priority booking and dedicated account management.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/corporate">
+                        View Corporate Services <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Plane className="h-5 w-5 text-accent" />
+                      Airport Services
+                    </CardTitle>
+                    <CardDescription>
+                      Reliable airport transfers to JFK, LaGuardia, Newark, and Westchester County Airport with flight tracking.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/airport">
+                        View Airport Services <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Heart className="h-5 w-5 text-accent" />
+                      Events & Weddings
+                    </CardTitle>
+                    <CardDescription>
+                      Luxury transportation for special occasions including weddings, proms, and corporate events.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/events">
+                        View Event Services <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-accent" />
+                      Service Areas
+                    </CardTitle>
+                    <CardDescription>
+                      We serve all of Westchester County, Putnam, Dutchess, Fairfield County, and surrounding areas.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/service-areas">
+                        View Service Areas <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </section>

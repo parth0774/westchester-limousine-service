@@ -184,14 +184,14 @@ export default function CorporateLimousineBlog() {
                   Maximize Productivity During Transit
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  For executives traveling between White Plains office parks, Purchase corporate headquarters, or Rye Brook business centers, commute time represents significant lost productivity. Professional corporate limousine service transforms travel time into productive work sessions. Our luxury vehicles feature high-speed Wi-Fi, charging ports for multiple devices, and spacious interiors designed as mobile offices. Business professionals can prepare presentations, conduct conference calls, review documents, or respond to emails while chauffeurs handle navigation and traffic.
+                  For executives traveling between <Link href="/service-areas/westchester-county-ny/white-plains" className="text-blue-600 hover:underline">White Plains</Link> office parks, Purchase corporate headquarters, or Rye Brook business centers, commute time represents significant lost productivity. Professional <Link href="/services/corporate" className="text-blue-600 hover:underline font-semibold">corporate limousine service</Link> transforms travel time into productive work sessions. Our luxury vehicles feature high-speed Wi-Fi, charging ports for multiple devices, and spacious interiors designed as mobile offices. Business professionals can prepare presentations, conduct conference calls, review documents, or respond to emails while chauffeurs handle navigation and traffic.
                 </p>
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                   Reliability That Protects Your Reputation
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Late arrivals to client meetings, investor presentations, or board sessions damage professional credibility. Westchester County's corporate limousine services guarantee punctuality through GPS tracking, real-time traffic monitoring, and experienced chauffeurs who know alternate routes throughout the region. When your company's reputation depends on timeliness, professional transportation eliminates the risk of parking hassles, navigation errors, or traffic surprises.
+                  Late arrivals to client meetings, investor presentations, or board sessions damage professional credibility. <Link href="/service-areas/westchester-county-ny" className="text-blue-600 hover:underline">Westchester County's</Link> corporate limousine services guarantee punctuality through GPS tracking, real-time traffic monitoring, and experienced chauffeurs who know alternate routes throughout the region. When your company's reputation depends on timeliness, professional transportation eliminates the risk of parking hassles, navigation errors, or traffic surprises.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
@@ -233,7 +233,7 @@ export default function CorporateLimousineBlog() {
                   Executive Sedans
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Perfect for solo executives or small teams traveling to meetings in White Plains, Manhattan, or regional offices. Our Lincoln and Cadillac sedans offer professional discretion, comfortable leather seating, and premium amenities. Ideal for airport transfers, client meetings, and daily executive transportation throughout Westchester County.
+                  Perfect for solo executives or small teams traveling to meetings in <Link href="/service-areas/westchester-county-ny/white-plains" className="text-blue-600 hover:underline">White Plains</Link>, Manhattan, or regional offices. Our Lincoln and Cadillac sedans offer professional discretion, comfortable leather seating, and premium amenities. Ideal for <Link href="/services/airport" className="text-blue-600 hover:underline">airport transfers</Link>, client meetings, and daily executive transportation throughout <Link href="/service-areas/westchester-county-ny" className="text-blue-600 hover:underline">Westchester County</Link>.
                 </p>
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -305,6 +305,49 @@ export default function CorporateLimousineBlog() {
               <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20" asChild>
                 <Link href="/fleet">View Fleet</Link>
               </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Services */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                Explore Our Transportation Services
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <Link href="/services/airport" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">
+                      Airport Services
+                    </h3>
+                    <p className="text-gray-600">
+                      Reliable airport transfers to JFK, LaGuardia, Newark, and Westchester County Airport.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/services/hourly" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">
+                      Hourly Service
+                    </h3>
+                    <p className="text-gray-600">
+                      Flexible hourly limo service for meetings, shopping, or city-to-city transfers.
+                    </p>
+                  </div>
+                </Link>
+                <Link href="/service-areas" className="group">
+                  <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600">
+                      Service Areas
+                    </h3>
+                    <p className="text-gray-600">
+                      We serve Westchester County, Putnam, Dutchess, Fairfield County, and NYC.
+                    </p>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </section>

@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import Link from "next/link"
 import { Award, Clock, Shield, Users } from "lucide-react"
 
 export function HomeAboutUs() {
@@ -76,16 +77,16 @@ export function HomeAboutUs() {
           <div className="space-y-4 sm:space-y-5">
             <div className="space-y-3 text-muted-foreground leading-relaxed text-sm sm:text-base text-justify">
               <p className="text-justify">
-                Based in <strong className="text-foreground">Westchester County, New York</strong>, we proudly serve clients across
-                Putnam, Dutchess, Rockland County, Connecticut and the
-                greater New York City area. Every journey with us reflects our focus on
+                Based in <Link href="/service-areas/westchester-county-ny" className="text-accent hover:underline font-semibold"><strong>Westchester County, New York</strong></Link>, we proudly serve clients across
+                <Link href="/service-areas/putnam-county-ny" className="text-accent hover:underline"> Putnam</Link>, <Link href="/service-areas/dutchess-county-ny" className="text-accent hover:underline">Dutchess</Link>, Rockland County, <Link href="/service-areas/fairfield-county-ct" className="text-accent hover:underline">Connecticut</Link> and the
+                <Link href="/service-areas/new-york-city-metro-area" className="text-accent hover:underline"> greater New York City area</Link>. Every journey with us reflects our focus on
                 excellence, professionalism, and personal care.
               </p>
               <p className="text-justify">
                 Our mission is simple. We provide a seamless and luxurious ground
                 transportation experience for every client. Whether you are
-                catching a flight, attending a business meeting, or celebrating a
-                special occasion, our chauffeurs ensure that you arrive safely and
+                catching a flight with our <Link href="/services/airport" className="text-accent hover:underline">airport services</Link>, attending a business meeting with our <Link href="/services/corporate" className="text-accent hover:underline">corporate travel</Link>, or celebrating a
+                special occasion with our <Link href="/services/events" className="text-accent hover:underline">event transportation</Link>, our chauffeurs ensure that you arrive safely and
                 on time.
               </p>
               <p className="text-justify">

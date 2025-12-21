@@ -1,8 +1,9 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
-import { Shield, Users, Award, Clock } from "lucide-react"
+import { Shield, Users, Award, Clock, Plane, Briefcase, Heart, MapPin, ArrowRight } from "lucide-react"
 
 import { Metadata } from "next"
 
@@ -46,7 +47,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Westchester Limousine has proudly served Westchester County, New York and the Tri-State Area since 1995.
+                    Westchester Limousine has proudly served <Link href="/service-areas/westchester-county-ny" className="text-accent hover:underline font-semibold">Westchester County, New York</Link> and the Tri-State Area since 1995.
                     Over the years, we have built a reputation for excellence in the luxury transportation industry.
                     Our team understands the importance of comfort, reliability, and professionalism.
                   </p>
@@ -56,7 +57,7 @@ export default function AboutPage() {
                     our commitment to exceptional service, attention to detail, and a dedication to exceeding expectations.
                   </p>
                   <p>
-                    Whether it is a corporate meeting, a wedding, an airport transfer, or a special event,
+                    Whether it is a <Link href="/services/corporate" className="text-accent hover:underline">corporate meeting</Link>, a <Link href="/services/events" className="text-accent hover:underline">wedding</Link>, an <Link href="/services/airport" className="text-accent hover:underline">airport transfer</Link>, or a special event,
                     Westchester Limousine delivers a first-class experience with every ride.
                   </p>
                   <p>
@@ -158,9 +159,159 @@ export default function AboutPage() {
             <div className="mt-12 text-center max-w-2xl mx-auto">
               <p className="text-lg text-muted-foreground">
                 Westchester Limousine is more than a transportation company — we are a partner in your travel experience.
-                Whether for corporate travel, weddings, airport transfers, or special events, we tailor every detail
+                Whether for <Link href="/services/corporate" className="text-accent hover:underline">corporate travel</Link>, <Link href="/services/events" className="text-accent hover:underline">weddings</Link>, <Link href="/services/airport" className="text-accent hover:underline">airport transfers</Link>, or special events, we tailor every detail
                 to your needs. Your comfort, safety, and satisfaction are our priorities.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Our Services */}
+        <section className="py-20 bg-secondary">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Our Transportation Services</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Plane className="h-5 w-5 text-accent" />
+                      Airport Services
+                    </CardTitle>
+                    <CardDescription>
+                      Reliable airport transfers to JFK, LaGuardia, Newark, and Westchester County Airport.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/airport">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Briefcase className="h-5 w-5 text-accent" />
+                      Corporate Travel
+                    </CardTitle>
+                    <CardDescription>
+                      Executive car service for business professionals with priority booking.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/corporate">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Heart className="h-5 w-5 text-accent" />
+                      Events & Weddings
+                    </CardTitle>
+                    <CardDescription>
+                      Luxury transportation for weddings, proms, and special events.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/events">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Clock className="h-5 w-5 text-accent" />
+                      Hourly Service
+                    </CardTitle>
+                    <CardDescription>
+                      Flexible hourly limo service for meetings, shopping, or city-to-city transfers.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/hourly">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Users className="h-5 w-5 text-accent" />
+                      School Transportation
+                    </CardTitle>
+                    <CardDescription>
+                      Safe and reliable private school transportation in Westchester County.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/services/school">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-accent" />
+                      Service Areas
+                    </CardTitle>
+                    <CardDescription>
+                      We serve Westchester County, Putnam, Dutchess, Fairfield County, and NYC.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/service-areas">
+                        View Areas <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Service Areas */}
+        <section className="py-20">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Where We Serve</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <Link href="/service-areas/westchester-county-ny" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors">
+                  <h3 className="font-semibold text-foreground mb-2">Westchester County, NY</h3>
+                  <p className="text-sm text-muted-foreground">Comprehensive luxury transportation services</p>
+                </Link>
+                <Link href="/service-areas/putnam-county-ny" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors">
+                  <h3 className="font-semibold text-foreground mb-2">Putnam County, NY</h3>
+                  <p className="text-sm text-muted-foreground">Reliable limousine and black car services</p>
+                </Link>
+                <Link href="/service-areas/dutchess-county-ny" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors">
+                  <h3 className="font-semibold text-foreground mb-2">Dutchess County, NY</h3>
+                  <p className="text-sm text-muted-foreground">Premium transportation solutions</p>
+                </Link>
+                <Link href="/service-areas/fairfield-county-ct" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors">
+                  <h3 className="font-semibold text-foreground mb-2">Fairfield County, CT</h3>
+                  <p className="text-sm text-muted-foreground">Professional chauffeur services</p>
+                </Link>
+                <Link href="/service-areas/new-york-city-metro-area" className="p-4 bg-secondary rounded-lg hover:bg-accent/10 transition-colors">
+                  <h3 className="font-semibold text-foreground mb-2">New York City Metro</h3>
+                  <p className="text-sm text-muted-foreground">Complete coverage of NYC boroughs</p>
+                </Link>
+              </div>
             </div>
           </div>
         </section>
@@ -179,7 +330,7 @@ export default function AboutPage() {
               </Button>
               <div className="mt-6 space-y-2 text-sm text-primary-foreground/70">
                 <p>
-                  Serving Westchester County and the Tri-State Area with professional, reliable, and luxurious transportation
+                  Serving <Link href="/service-areas/westchester-county-ny" className="text-accent hover:underline">Westchester County</Link> and the Tri-State Area with professional, reliable, and luxurious transportation
                   since 1995.
                 </p>
                 <p>

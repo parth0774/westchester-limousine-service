@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { Shield, Clock, Star, Users, Phone, Award } from "lucide-react"
 
 const features = [
@@ -102,9 +103,18 @@ export function FeaturesSection() {
             <p className="text-lg text-foreground mb-2">
               <span className="font-bold">Ready to experience luxury transportation?</span>
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground mb-4">
               Call us at <a href="tel:914-222-1919" className="text-accent font-semibold hover:underline">(914) 222-1919</a> or book online in minutes
             </p>
+            <div className="flex flex-wrap justify-center gap-3 text-sm">
+              <Link href="/services/airport" className="text-accent hover:underline font-medium">Airport Services</Link>
+              <span className="text-muted-foreground">•</span>
+              <Link href="/services/corporate" className="text-accent hover:underline font-medium">Corporate Travel</Link>
+              <span className="text-muted-foreground">•</span>
+              <Link href="/services/events" className="text-accent hover:underline font-medium">Events & Weddings</Link>
+              <span className="text-muted-foreground">•</span>
+              <Link href="/service-areas" className="text-accent hover:underline font-medium">Service Areas</Link>
+            </div>
           </div>
         </div>
 
