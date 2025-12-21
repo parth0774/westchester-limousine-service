@@ -4,6 +4,16 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Shield, Users, Award, Clock } from "lucide-react"
 
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Us | Westchester Limousine",
+  description: "Learn about Westchester Limousine's history, mission, and commitment to luxury transportation services since 1995.",
+  alternates: {
+    canonical: "/about",
+  },
+}
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen">

@@ -4,6 +4,15 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Star, Heart, Users } from "lucide-react"
 import { Metadata } from "next"
+import { Breadcrumbs } from "@/components/breadcrumbs"
+
+export const metadata: Metadata = {
+  title: "Wedding & Event Limousine | Westchester Limousine",
+  description: "Luxury transportation for weddings, proms, and special events. Make your special day unforgettable with our premium limo service.",
+  alternates: {
+    canonical: "/services/events",
+  },
+}
 
 export default function EventsPage() {
   return (
@@ -11,6 +20,13 @@ export default function EventsPage() {
       <Header />
 
       <main>
+        <Breadcrumbs
+          className="container mx-auto px-4 sm:px-6 lg:px-8 py-4"
+          items={[
+            { label: "Services", href: "/services" },
+            { label: "Proms, Weddings & Events", href: "/services/events" },
+          ]}
+        />
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-background to-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">

@@ -4,7 +4,15 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Clock, MapPin, Users } from "lucide-react"
 import { Metadata } from "next"
+import { Breadcrumbs } from "@/components/breadcrumbs"
 
+export const metadata: Metadata = {
+  title: "Hourly Car Service | Westchester Limousine",
+  description: "Flexible hourly limo service and city-to-city transfers. Rent a chauffeur and vehicle for as long as you need.",
+  alternates: {
+    canonical: "/services/hourly",
+  },
+}
 
 export default function HourlyCityPage() {
   return (
@@ -12,6 +20,13 @@ export default function HourlyCityPage() {
       <Header />
 
       <main>
+        <Breadcrumbs
+          className="container mx-auto px-4 sm:px-6 lg:px-8 py-4"
+          items={[
+            { label: "Services", href: "/services" },
+            { label: "Hourly & City-to-City", href: "/services/hourly" },
+          ]}
+        />
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-background to-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">

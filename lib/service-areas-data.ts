@@ -6,6 +6,7 @@ import { westchesterCountyData } from "./service-areas/westchester-county-ny"
 import { putnamCountyData } from "./service-areas/putnam-county-ny"
 import { dutchessCountyData } from "./service-areas/dutchess-county-ny"
 import { fairfieldCountyData } from "./service-areas/fairfield-county-ct"
+import { newHavenCountyData } from "./service-areas/new-haven-county-ct"
 import { newYorkCityMetroAreaData } from "./service-areas/new-york-city-metro-area"
 import type { AreaData } from "./service-areas/types"
 
@@ -15,6 +16,7 @@ export const areaData: Record<string, AreaData> = {
   "putnam-county-ny": putnamCountyData,
   "dutchess-county-ny": dutchessCountyData,
   "fairfield-county-ct": fairfieldCountyData,
+  "new-haven-county-ct": newHavenCountyData,
   "new-york-city-metro-area": newYorkCityMetroAreaData,
 }
 

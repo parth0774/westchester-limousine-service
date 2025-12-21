@@ -5,6 +5,7 @@ import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/com
 import Link from "next/link"
 import { Plane, Clock, MapPin, Luggage, Phone, Shield, Star, ArrowRight, CheckCircle, DollarSign, Users, Calendar } from "lucide-react"
 import { Metadata } from "next"
+import { Breadcrumbs } from "@/components/breadcrumbs"
 
 const features = [
   {
@@ -97,18 +98,33 @@ const airports = [
 ]
 
 const serviceAreas = [
-  "White Plains", "Yonkers", "New Rochelle", "Mount Vernon", "Scarsdale", 
+  "White Plains", "Yonkers", "New Rochelle", "Mount Vernon", "Scarsdale",
   "Rye", "Harrison", "Mamaroneck", "Larchmont", "Pelham",
   "Bronxville", "Tuckahoe", "Eastchester", "Ardsley", "Dobbs Ferry",
   "Hastings-on-Hudson", "Irvington", "Tarrytown", "Sleepy Hollow", "Briarcliff Manor",
   "Ossining", "Croton-on-Hudson", "Yorktown Heights", "Peekskill", "Mohegan Lake"
 ]
 
+export const metadata: Metadata = {
+  title: "Airport Limo Service | Westchester Limousine",
+  description: "Reliable airport limo service to JFK, LaGuardia, Newark, HPN, and Bradley. On-time pickups, flight tracking, and luxury vehicles.",
+  alternates: {
+    canonical: "/services/airport",
+  },
+}
+
 export default function AirportServicesPage() {
   return (
     <div className="min-h-screen">
       <Header />
       <main>
+        <Breadcrumbs
+          className="container mx-auto px-4 sm:px-6 lg:px-8 py-4"
+          items={[
+            { label: "Services", href: "/services" },
+            { label: "Airport Transportation", href: "/services/airport" }
+          ]}
+        />
         {/* Hero Section */}
         <section className="relative min-h-[75vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -158,9 +174,9 @@ export default function AirportServicesPage() {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg" 
+                <Button
+                  variant="outline"
+                  size="lg"
                   className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-black text-lg px-8 py-6"
                   asChild
                 >
@@ -184,7 +200,7 @@ export default function AirportServicesPage() {
         <section className="relative py-24 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/30 to-background"></div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/5 rounded-full blur-3xl"></div>
-          
+
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-16">
               <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/20 rounded-full mb-4">
@@ -226,7 +242,7 @@ export default function AirportServicesPage() {
         <section className="relative py-24 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-secondary/40 via-background to-secondary/20"></div>
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-accent/5 rounded-full blur-3xl"></div>
-          
+
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-16">
               <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/20 rounded-full mb-4">
@@ -251,11 +267,11 @@ export default function AirportServicesPage() {
                       className="w-full h-full object-contain group-hover:scale-250 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
-                    
+
                     <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-xl shadow-lg">
                       <span className="text-lg font-bold text-accent">{airport.code}</span>
                     </div>
-                    
+
                     <div className="absolute bottom-1 left-4 right-4">
                       <h3 className="text-xl font-bold text-white mb-2">{airport.name}</h3>
                       <div className="flex flex-col gap-1 text-sm text-white/90">
@@ -270,11 +286,11 @@ export default function AirportServicesPage() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <CardHeader>
                     <CardDescription className="text-base leading-relaxed">{airport.description}</CardDescription>
                   </CardHeader>
-                  
+
                   <CardContent>
                     <Button className="w-full bg-accent hover:bg-accent/90 text-white group/btn" asChild>
                       <Link href="/contact">
@@ -300,7 +316,7 @@ export default function AirportServicesPage() {
         {/* Benefits Section */}
         <section className="relative py-24 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/40 to-background"></div>
-          
+
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
               <div className="relative order-2 lg:order-1">
@@ -312,7 +328,7 @@ export default function AirportServicesPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
                 </div>
-                
+
                 <div className="absolute -bottom-6 -right-6 bg-card border-2 border-accent/30 rounded-xl shadow-xl p-6 max-w-xs">
                   <div className="flex items-center space-x-4">
                     <div className="bg-accent/10 p-3 rounded-lg">
@@ -330,11 +346,11 @@ export default function AirportServicesPage() {
                 <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/20 rounded-full mb-6">
                   <span className="text-sm font-semibold text-accent">WHY CHOOSE US</span>
                 </div>
-                
+
                 <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
                   The Westchester Airport Service Advantage
                 </h2>
-                
+
                 <div className="space-y-5">
                   <div className="flex items-start space-x-4 p-5 bg-card border-2 border-border rounded-xl hover:border-accent/50 transition-all hover:shadow-lg">
                     <div className="bg-gradient-to-br from-accent to-accent/70 p-3 rounded-lg flex-shrink-0">
@@ -347,7 +363,7 @@ export default function AirportServicesPage() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4 p-5 bg-card border-2 border-border rounded-xl hover:border-accent/50 transition-all hover:shadow-lg">
                     <div className="bg-gradient-to-br from-accent to-accent/70 p-3 rounded-lg flex-shrink-0">
                       <Clock className="h-6 w-6 text-white" />
@@ -359,7 +375,7 @@ export default function AirportServicesPage() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4 p-5 bg-card border-2 border-border rounded-xl hover:border-accent/50 transition-all hover:shadow-lg">
                     <div className="bg-gradient-to-br from-accent to-accent/70 p-3 rounded-lg flex-shrink-0">
                       <Star className="h-6 w-6 text-white" />
@@ -392,7 +408,7 @@ export default function AirportServicesPage() {
         {/* Service Areas */}
         <section className="relative py-24 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 via-background to-secondary/10"></div>
-          
+
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-12">
               <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/20 rounded-full mb-4">
@@ -452,24 +468,24 @@ export default function AirportServicesPage() {
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/10 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/10 rounded-full blur-3xl"></div>
           <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
-          
+
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center max-w-3xl mx-auto">
               <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full mb-6">
                 <span className="text-sm font-semibold text-white">BOOK YOUR RIDE</span>
               </div>
-              
+
               <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-white">
                 Reserve Your Airport Transfer Today
               </h2>
-              
+
               <p className="text-xl text-white/90 mb-10 leading-relaxed">
                 Whether you're traveling for business or pleasure, arriving or departing, Westchester Limousine ensures your airport journey is comfortable, reliable, and stress-free. Book now and experience the difference.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-                <Button 
-                  size="lg" 
+                <Button
+                  size="lg"
                   className="bg-accent text-white hover:bg-accent/90 text-lg px-8 py-6 shadow-xl hover:shadow-2xl hover:scale-105 transition-all"
                   asChild
                 >
@@ -478,7 +494,7 @@ export default function AirportServicesPage() {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
-                
+
                 <Button
                   size="lg"
                   className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-accent text-lg px-8 py-6 transition-all"
@@ -498,7 +514,7 @@ export default function AirportServicesPage() {
                   { icon: Star, text: "4.9/5 Rating" },
                   { icon: DollarSign, text: "Flat-Rate Pricing" }
                 ].map((feature, index) => (
-                  <div 
+                  <div
                     key={index}
                     className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-3"
                   >

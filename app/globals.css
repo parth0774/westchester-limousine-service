@@ -1,23 +1,53 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .transform-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .translate-z-0 {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+  }
+
+  .will-change-transform {
+    will-change: transform;
+  }
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
   /* Updated theme for luxury limousine service with elegant black, gold, and cream palette */
-  --background: oklch(0.98 0.005 85); /* Warm cream background */
-  --foreground: oklch(0.15 0 0); /* Deep charcoal text */
-  --card: oklch(1 0 0); /* Pure white cards */
+  --background: oklch(0.98 0.005 85);
+  /* Warm cream background */
+  --foreground: oklch(0.15 0 0);
+  /* Deep charcoal text */
+  --card: oklch(1 0 0);
+  /* Pure white cards */
   --card-foreground: oklch(0.15 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.15 0 0);
-  --primary: oklch(0.12 0 0); /* Luxury black */
+  --primary: oklch(0.12 0 0);
+  /* Luxury black */
   --primary-foreground: oklch(0.98 0.005 85);
-  --secondary: oklch(0.95 0.01 85); /* Light cream */
+  --secondary: oklch(0.95 0.01 85);
+  /* Light cream */
   --secondary-foreground: oklch(0.15 0 0);
   --muted: oklch(0.95 0.01 85);
   --muted-foreground: oklch(0.45 0 0);
-  --accent: oklch(0.65 0.15 85); /* Elegant gold accent */
+  --accent: oklch(0.65 0.15 85);
+  /* Elegant gold accent */
   --accent-foreground: oklch(0.15 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0.005 85);
@@ -115,6 +145,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

@@ -32,7 +32,7 @@ export default function ContactPage() {
               Contact Westchester Limousine
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              We are here to make your transportation experience seamless, comfortable, and reliable. 
+              We are here to make your transportation experience seamless, comfortable, and reliable.
               Whether you are booking a ride, requesting a quote, or need assistance, our team is always ready to help.
             </p>
           </div>
@@ -48,8 +48,8 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold flex items-center gap-2">About Us</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Westchester Limousine has built its reputation on professionalism and reliability. 
-                    We provide premium transportation services for airport transfers, corporate travel, 
+                    Westchester Limousine has built its reputation on professionalism and reliability.
+                    We provide premium transportation services for airport transfers, corporate travel,
                     weddings, proms, and special occasions throughout the New York metropolitan area.
                   </p>
                 </div>
@@ -58,8 +58,13 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold flex items-center gap-2">Contact Information</h3>
                   <div className="space-y-3 text-muted-foreground">
-                    <p><strong>Phone:</strong> (914) 218-0909</p>
-                    <p><strong>Email:</strong> info@westchesterlimousine.com</p>
+                    <p><strong>Phone:</strong> (914) 222-1919</p>
+                    <div className="flex items-center gap-2">
+                      <strong className="min-w-[60px]">Email:</strong>
+                      <a href="mailto:info.westchesterlimousine@gmail.com">
+                        <img src="/email-address.png" alt="Email Address" className="h-4 w-auto object-contain opacity-80 mt-1" />
+                      </a>
+                    </div>
                     <p><strong>Availability:</strong> 24/7 Service</p>
                     <p><strong>Office Hours:</strong> Mon-Sun 8AM-6PM</p>
                   </div>
@@ -105,9 +110,9 @@ export default function ContactPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
             <h2 className="text-2xl font-bold mb-4">Excellence in Every Journey</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Every ride with Westchester Limousine is tailored to your needs. 
-              From luxury sedans to executive SUVs, our fleet offers comfort and style. 
-              We take care of every detail so you can travel stress-free, whether you are heading to the airport, 
+              Every ride with Westchester Limousine is tailored to your needs.
+              From luxury sedans to executive SUVs, our fleet offers comfort and style.
+              We take care of every detail so you can travel stress-free, whether you are heading to the airport,
               a meeting, or a special event.
             </p>
           </div>

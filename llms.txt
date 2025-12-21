@@ -1,0 +1,37 @@
+# Project Summary
+This is a Next.js 14 web application for Westchester Limousine Service. It is built using TypeScript and follows modern React and Next.js best practices.
+
+# Tech Stack
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **UI Components**: Shadcn UI (Radix UI primitives)
+- **Validation**: Zod + React Hook Form
+- **Email**: Nodemailer
+- **Icons**: Lucide React
+
+# Architecture
+The project follows the standard Next.js App Router structure:
+- `app/`: Application routes and pages.
+    - `layout.tsx`: Root layout.
+    - `page.tsx`: Home page.
+    - `service-areas/`: Dynamic routes for service areas.
+- `components/`: Reusable UI components.
+    - `ui/`: Shadcn UI components (e.g., button, dialog, input).
+- `lib/`: Utility functions and shared logic.
+- `public/`: Static assets.
+
+# Key Dependencies
+- `next`: ^14.2.33
+- `react`: ^18
+- `tailwindcss`: ^4.1.9
+- `zod`: Schema validation.
+- `react-hook-form`: Form handling.
+- `nodemailer`: Sending emails.
+- `lucide-react`: Icons.
+
+# Conventions
+- **Components**: Use Functional Components with TypeScript interfaces for props.
+- **Styling**: Use utility classes (Tailwind CSS) for styling. Avoid custom CSS files where possible.
+- **Imports**: Use absolute imports (if configured) or relative imports consistent with the directory structure.
+- **State Management**: Use React hooks (`useState`, `useEffect`) and Context API where necessary. Server Components are preferred for data fetching.

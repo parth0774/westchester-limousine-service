@@ -95,13 +95,16 @@ export function Footer() {
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@westchesterlimousine.com</span>
+                <a href="mailto:info.westchesterlimousine@gmail.com" className="hover:text-accent transition-colors">
+                  info.westchesterlimousine@gmail.com
+                </a>
               </div>
               <div className="flex items-start justify-center md:justify-start space-x-2">
                 <MapPin className="h-4 w-4 mt-1" />
                 <div>
-                  <p>Mohegan Lake, NY</p>
-                  <p className="text-sm">Serving Westchester, Putnam, Dutchess Counties, Fairfield County (CT) & NYC Metro Area</p>
+                  <p>2945 Lexington Avenue</p>
+                  <p>Mohegan Lake 10547</p>
+                  <p className="text-sm mt-1">Serving Westchester, Putnam, Dutchess Counties, Fairfield County (CT) & NYC Metro Area</p>
                 </div>
               </div>
             </div>
@@ -113,9 +116,9 @@ export function Footer() {
           <p className="mb-2">
             Experience premium chauffeured transportation with Westchester Limousine — your trusted choice for airport transfers, corporate travel, and special events in Westchester County and beyond.
           </p>
-          <p className="mb-2">
-            Call us now at <a href="tel:+19142221919" className="text-accent font-semibold">(914) 222-1919</a> or email <a href="mailto:info@westchesterlimousine.com" className="text-accent font-semibold">info@westchesterlimousine.com</a> to book your ride today.
-          </p>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-2 mb-2">
+            <span>Call us now at <a href="tel:+19142221919" className="text-accent font-semibold">(914) 222-1919</a> or email <a href="mailto:info.westchesterlimousine@gmail.com" className="text-accent font-semibold">info.westchesterlimousine@gmail.com</a> to book your ride today.</span>
+          </div>
           <p className="text-sm">
             &copy; 2025 Westchester Limousine. All rights reserved. Licensed & Insured.
           </p>

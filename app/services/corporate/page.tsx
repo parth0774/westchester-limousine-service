@@ -5,6 +5,7 @@ import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/ca
 import Link from "next/link"
 import { Briefcase, Clock, Users, Shield, Phone, Calendar } from "lucide-react"
 import { Metadata } from "next"
+import { Breadcrumbs } from "@/components/breadcrumbs"
 
 const features = [
   {
@@ -29,11 +30,26 @@ const features = [
   },
 ]
 
+export const metadata: Metadata = {
+  title: "Corporate Car Service | Westchester Limousine",
+  description: "Executive corporate transportation for business travel, meetings, and events. Professional chauffeurs and corporate accounts available.",
+  alternates: {
+    canonical: "/services/corporate",
+  },
+}
+
 export default function CorporatePage() {
   return (
     <div className="min-h-screen">
       <Header />
       <main>
+        <Breadcrumbs
+          className="container mx-auto px-4 sm:px-6 lg:px-8 py-4"
+          items={[
+            { label: "Services", href: "/services" },
+            { label: "Corporate Travel", href: "/services/corporate" },
+          ]}
+        />
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-background to-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -51,9 +67,9 @@ export default function CorporatePage() {
                     <Link href="/contact">Request Corporate Account</Link>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
-                    <Link href="tel:914-XXX-XXXX">
+                    <Link href="tel:914-222-1919">
                       <Phone className="mr-2 h-4 w-4" />
-                      Call Now
+                      Call (914) 222-1919
                     </Link>
                   </Button>
                 </div>

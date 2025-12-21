@@ -9,17 +9,23 @@ import { HomeAboutUs } from "@/components/home-aboutus"
 import { ServiceHome } from "@/components/home-areas"
 import { Metadata } from "next"
 
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+}
+
 export default function HomePage() {
   return (
     <div className="min-h-screen">
       <Header />
       <main>
         <HeroSection />
-        <HomeAboutUs/>
+        <HomeAboutUs />
         <ServicesPreview />
-        <HomeFleet/>
+        <HomeFleet />
         <FeaturesSection />
-        <ServiceHome/>
+        <ServiceHome />
         <CTASection />
       </main>
       <Footer />

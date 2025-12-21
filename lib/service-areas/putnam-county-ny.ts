@@ -732,6 +732,188 @@ export const putnamCountyData: AreaData = {
           }
         ]
       }
+    },
+    {
+      name: "Lake Peekskill",
+      slug: "lake-peekskill",
+      description: "Lake Peekskill, a scenic hamlet in Putnam Valley, offers lakeside living and a close-knit community atmosphere. Our limousine service provides premium transportation for Lake Peekskill residents to airports and destinations throughout the region.",
+      landmarks: ["Lake Peekskill", "Carraras Beach", "Lake Peekskill Community Center"],
+      popularRoutes: [
+        { from: "Lake Peekskill", to: "JFK Airport", time: "85-105 minutes" },
+        { from: "Lake Peekskill", to: "LaGuardia Airport", time: "75-95 minutes" },
+        { from: "Lake Peekskill", to: "Manhattan", time: "70-85 minutes" },
+        { from: "Lake Peekskill", to: "Westchester County Airport", time: "55-70 minutes" }
+      ],
+      localServices: ["Airport Transportation", "Wedding Services", "Corporate Travel", "Special Events"],
+      businessDistricts: ["Oscawana Lake Road", "Lake Drive"],
+      nearbyAttractions: ["Lake Peekskill", "Clarence Fahnestock State Park"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "85-105 minutes" },
+        { destination: "LaGuardia Airport", time: "75-95 minutes" },
+        { destination: "Newark Airport", time: "105-125 minutes" },
+        { destination: "Manhattan", time: "70-85 minutes" }
+      ],
+      seoContent: {
+        introduction: "If you live in Lake Peekskill, New York, and need reliable, professional transportation, our Westchester limousine service in Lake Peekskill NY is designed for you. As a scenic hamlet within Putnam Valley, Lake Peekskill offers lakeside living and a close-knit community atmosphere. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Lake Peekskill residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Lake Peekskill Residents",
+            content: "Lake Peekskill's unique lakeside setting creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Lake Peekskill NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Lake Peekskill, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Lake Peekskill to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Lake Peekskill NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Lake Peekskill is home to many professionals who value privacy and comfort. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Lake Peekskill NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Lake Peekskill and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Lake Peekskill NY?",
+            content: "Lake Peekskill residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Lake Peekskill and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Lake Peekskill and Surrounding Areas",
+            content: "Although we specialize in Lake Peekskill, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Lake Peekskill NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
+    },
+    {
+      name: "Mahopac Falls",
+      slug: "mahopac-falls",
+      description: "Mahopac Falls, a peaceful hamlet in Carmel, offers a quiet suburban feel with easy access to regional attractions. Our professional limousine service provides reliable transportation for Mahopac Falls residents and businesses.",
+      landmarks: ["Mahopac Falls Elementary School", "Sycamore Park", "Red Mills Market", "Baldwin Meadows"],
+      popularRoutes: [
+        { from: "Mahopac Falls", to: "JFK Airport", time: "75-95 minutes" },
+        { from: "Mahopac Falls", to: "LaGuardia Airport", time: "65-85 minutes" },
+        { from: "Mahopac Falls", to: "Manhattan", time: "60-75 minutes" },
+        { from: "Mahopac Falls", to: "Westchester County Airport", time: "45-60 minutes" }
+      ],
+      localServices: ["Airport Transportation", "Corporate Services", "Wedding Services", "Event Transportation"],
+      businessDistricts: ["Route 6N", "Secor Road"],
+      nearbyAttractions: ["Sycamore Park", "Red Mills Market"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "75-95 minutes" },
+        { destination: "LaGuardia Airport", time: "65-85 minutes" },
+        { destination: "Newark Airport", time: "95-115 minutes" },
+        { destination: "Manhattan", time: "60-75 minutes" }
+      ],
+      seoContent: {
+        introduction: "If you live in Mahopac Falls, New York, and need reliable, professional transportation, our Westchester limousine service in Mahopac Falls NY is designed for you. As a peaceful hamlet within Carmel, Mahopac Falls offers a quiet suburban feel with easy access to regional attractions. At Westchester Limousine, we provide luxury, comfort, and punctual service for every ride, whether it's for business, airport travel, or a special occasion. Our experienced chauffeurs and premium fleet ensure that Mahopac Falls residents enjoy stress-free transportation with Westchester Limousine throughout the Tri-State Area.",
+        sections: [
+          {
+            title: "Luxury Limousine Services for Mahopac Falls Residents",
+            content: "Mahopac Falls' quiet suburban atmosphere creates diverse transportation needs. Because of that, our Westchester Limousine services are tailored to meet the daily and special transportation needs of local residents. Our Westchester limousine service in Mahopac Falls NY is ideal for:",
+            items: [
+              "Daily commuters to Manhattan",
+              "Corporate executives",
+              "Families and groups",
+              "Event and wedding guests"
+            ]
+          },
+          {
+            title: "Airport Transportation from Mahopac Falls, NY",
+            content: "Getting to the airport on time is essential. Therefore, we offer dependable airport limo services from Mahopac Falls to all major airports. With real-time flight tracking and professional chauffeurs, our Westchester limousine service in Mahopac Falls NY ensures smooth and on-time airport transfers.",
+            items: [
+              "JFK International Airport",
+              "LaGuardia Airport",
+              "Newark Liberty International Airport",
+              "Westchester County Airport (HPN)"
+            ]
+          },
+          {
+            title: "Corporate & Business Limousine Services",
+            content: "Mahopac Falls is home to many commuters and business professionals. As a result, we specialize in executive transportation that reflects professionalism and reliability. Moreover, our discreet and punctual chauffeurs make business travel seamless with Westchester Limousine.",
+            items: [
+              "Client pickups and drop-offs",
+              "Corporate meetings and conferences",
+              "Business events and roadshows",
+              "Daily executive transportation"
+            ]
+          },
+          {
+            title: "Special Event & Wedding Limousine Services",
+            content: "Whether you are attending a wedding, prom, anniversary, or private event, our luxury limousines add elegance to your experience. Our Westchester limousine service in Mahopac Falls NY helps you arrive in style while enjoying a relaxed ride.",
+            items: [
+              "Weddings in Mahopac Falls and Putnam County",
+              "Proms and school events",
+              "Birthday celebrations",
+              "Nights out in NYC"
+            ]
+          },
+          {
+            title: "Our Premium Fleet",
+            content: "We maintain a modern and well-equipped fleet to meet different transportation needs. Each vehicle is professionally cleaned and maintained for comfort and safety. In addition, all vehicles offer climate control, plush seating, and ample space.",
+            items: [
+              "Luxury sedans",
+              "Stretch limousines",
+              "SUVs",
+              "Executive vans"
+            ]
+          },
+          {
+            title: "Why Choose Our Westchester Limousine Service in Mahopac Falls NY?",
+            content: "Mahopac Falls residents choose us because we consistently deliver quality service. Because customer satisfaction is our priority, we focus on every detail of your journey with Westchester Limousine.",
+            items: [
+              "Professional, licensed chauffeurs",
+              "On-time pickups and drop-offs",
+              "Competitive and transparent pricing",
+              "Local knowledge of Mahopac Falls and surrounding areas",
+              "24/7 customer support"
+            ]
+          },
+          {
+            title: "Serving Mahopac Falls and Surrounding Areas",
+            content: "Although we specialize in Mahopac Falls, our services extend throughout Putnam County, Westchester County, Manhattan and NYC, Connecticut, and New Jersey. This makes our Westchester limousine service in Mahopac Falls NY a convenient choice for both local and long-distance travel."
+          }
+        ]
+      }
     }
   ],
   features: [

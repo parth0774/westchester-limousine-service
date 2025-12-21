@@ -118,7 +118,7 @@ export default function WeddingLimousineBlog() {
                   <Link href="/contact">Get Wedding Quote</Link>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20">
-                  <Link href="tel:+1234567890">Call Us Today</Link>
+                  <Link href="tel:914-222-1919">Call (914) 222-1919</Link>
                 </Button>
               </div>
             </div>

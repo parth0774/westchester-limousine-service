@@ -541,7 +541,7 @@ export default function AirportTransportationBlog() {
                 <Link href="/contact">Get a Free Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20" asChild>
-                <Link href="tel:+9142221919">Call: (914) 222-1919</Link>
+                <Link href="tel:914-222-1919">Call: (914) 222-1919</Link>
               </Button>
             </div>
           </div>

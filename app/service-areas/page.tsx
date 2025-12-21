@@ -42,6 +42,16 @@ const serviceAreas = [
   }
 ]
 
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Service Areas | Westchester Limousine",
+  description: "Luxury transportation services in Westchester County, Putnam County, Dutchess County, Fairfield County, and NYC.",
+  alternates: {
+    canonical: "/service-areas",
+  },
+}
+
 export default function ServiceAreasPage() {
   return (
     <div className="min-h-screen">
@@ -58,8 +68,8 @@ export default function ServiceAreasPage() {
                 Where We Serve
               </h1>
               <p className="text-xl text-muted-foreground text-pretty">
-                Westchester Limousine provides premium chauffeured transportation services 
-                throughout Westchester County and the greater Tri-State Area. Click on any 
+                Westchester Limousine provides premium chauffeured transportation services
+                throughout Westchester County and the greater Tri-State Area. Click on any
                 area below to learn more about our services in that region.
               </p>
             </div>
@@ -105,7 +115,7 @@ export default function ServiceAreasPage() {
             <div className="text-center max-w-3xl mx-auto">
               <h2 className="text-3xl font-bold mb-6">Ready to Book Your Ride?</h2>
               <p className="text-xl text-primary-foreground/80 mb-8">
-                Whether you're traveling to the airport, attending a corporate event, or celebrating a special occasion, 
+                Whether you're traveling to the airport, attending a corporate event, or celebrating a special occasion,
                 we're here to provide you with luxury transportation services.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

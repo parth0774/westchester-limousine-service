@@ -8,7 +8,7 @@ import { areaData, getAllCities } from "@/lib/service-areas-data"
 import type { Metadata } from "next"
 import { Breadcrumbs } from "@/components/breadcrumbs"
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return getAllCities()
 }
 
@@ -72,7 +72,9 @@ export default function CityPage({ params }: { params: { area: string; city: str
       "name": city.name
     },
     "serviceType": city.localServices,
-    "url": `https://westchesterlimousine.net/service-areas/${params.area}/${params.city}/`
+    "url": `https://westchesterlimousine.net/service-areas/${params.area}/${params.city}/`,
+    "email": "info.westchesterlimousine@gmail.com",
+    "telephone": "+19142221919"
   }
 
   return (
@@ -91,7 +93,7 @@ export default function CityPage({ params }: { params: { area: string; city: str
                 items={[
                   { label: "Service Areas", href: "/#service-areas" },
                   { label: area.name, href: `/service-areas/${params.area}/` },
-                  { label: city.name }
+                  { label: city.name, href: `/service-areas/${params.area}/${params.city}/` }
                 ]}
               />
               <Link 

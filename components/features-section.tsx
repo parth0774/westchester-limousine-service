@@ -37,16 +37,16 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section className="relative py-16 sm:py-24 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/40 to-background"></div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/5 rounded-full blur-3xl"></div>
-      
+
       {/* Decorative Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.02)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-block px-4 py-2 bg-accent/10 border border-accent/20 rounded-full mb-4">
@@ -65,13 +65,13 @@ export function FeaturesSection() {
           {features.map((feature, index) => {
             const Icon = feature.icon
             return (
-              <div 
-                key={feature.title} 
+              <div
+                key={feature.title}
                 className="group relative bg-card border-2 border-border rounded-2xl p-8 text-center hover:border-accent/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
               >
                 {/* Decorative corner accent */}
                 <div className="absolute top-0 right-0 w-20 h-20 bg-accent/5 rounded-bl-3xl rounded-tr-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                
+
                 {/* Icon */}
                 <div className="relative mb-6">
                   <div className="w-20 h-20 bg-gradient-to-br from-accent to-accent/70 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
@@ -103,7 +103,7 @@ export function FeaturesSection() {
               <span className="font-bold">Ready to experience luxury transportation?</span>
             </p>
             <p className="text-muted-foreground">
-              Call us at <a href="tel:914-222-1919" className="text-accent font-semibold hover:underline">914-222-1919</a> or book online in minutes
+              Call us at <a href="tel:914-222-1919" className="text-accent font-semibold hover:underline">(914) 222-1919</a> or book online in minutes
             </p>
           </div>
         </div>

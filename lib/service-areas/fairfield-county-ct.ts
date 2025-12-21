@@ -732,6 +732,306 @@ export const fairfieldCountyData: AreaData = {
           }
         ]
       }
+    },
+    {
+      name: "New Canaan",
+      slug: "new-canaan",
+      description: "New Canaan, a picturesque town with a charming village center, is known for its modern architecture and excellent schools. Our limousine service provides sophisticated transportation for residents to NYC and airports.",
+      landmarks: ["The Glass House", "Waveny Park", "New Canaan Nature Center", "Grace Farms", "Elm Street"],
+      popularRoutes: [
+        { from: "New Canaan", to: "JFK Airport", time: "70-90 minutes" },
+        { from: "New Canaan", to: "LaGuardia Airport", time: "60-80 minutes" },
+        { from: "New Canaan", to: "Manhattan", time: "60-80 minutes" },
+        { from: "New Canaan", to: "Newark Airport", time: "80-100 minutes" }
+      ],
+      localServices: ["Executive Commuting", "Airport Transfers", "Event Transportation", "Private Car Service"],
+      businessDistricts: ["Elm Street", "Main Street", "Grove Street"],
+      nearbyAttractions: ["The Glass House", "Waveny House", "Silvermine Arts Center"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "70-90 minutes" },
+        { destination: "LaGuardia Airport", time: "60-80 minutes" },
+        { destination: "Newark Airport", time: "80-100 minutes" },
+        { destination: "Manhattan", time: "60-80 minutes" }
+      ],
+      seoContent: {
+        introduction: "For residents of New Canaan, Connecticut, seeking top-tier transportation, our Westchester limousine service in New Canaan CT offers the perfect blend of luxury and reliability. Known for its architecture and affluent community, New Canaan demands a high standard of service. At Westchester Limousine, we meet that demand with our premium fleet and professional chauffeurs, ensuring every trip—whether to the airport, the city, or a local event—is seamless and comfortable.",
+        sections: [
+          {
+            title: "Luxury Car Service for New Canaan",
+            content: "New Canaan's sophisticated residents require transportation that matches their lifestyle. Our Westchester limousine service in New Canaan CT provides:",
+            items: [
+              "Daily executive commutes to NYC",
+              "Reliable airport connections for families",
+              "Chauffeured service for special occasions",
+              "Safe student travel options"
+            ]
+          },
+          {
+            title: "Airport Transfers from New Canaan",
+            content: "Travel stress-free to any major airport. Our drivers are punctual and knowledgeable, ensuring you arrive on time. With our Westchester limousine service in New Canaan CT, your airport transfer is the most relaxing part of your journey.",
+            items: [
+              "JFK & LaGuardia Airports",
+              "Newark Liberty International",
+              "Westchester County Airport (HPN)",
+              "Teterboro Airport"
+            ]
+          },
+          {
+            title: "Serving New Canaan's Community",
+            content: "We are proud to serve the New Canaan community, from the historic town center to the beautiful estates. Our commitment to excellence makes us the preferred Westchester limousine service in New Canaan CT."
+          }
+        ]
+      }
+    },
+    {
+      name: "Newtown",
+      slug: "newtown",
+      description: "Newtown, a scenic town with a rich history and strong community spirit, offers a peaceful retreat with easy access to regional hubs. Our limousine service connects Newtown residents to the wider Tri-State area.",
+      landmarks: ["The Newtown Flagpole", "Edmond Town Hall", "Ram Pasture", "Holcombe Hill Wildlife Preserve", "Fairfield Hills"],
+      popularRoutes: [
+        { from: "Newtown", to: "JFK Airport", time: "90-110 minutes" },
+        { from: "Newtown", to: "LaGuardia Airport", time: "80-100 minutes" },
+        { from: "Newtown", to: "Manhattan", time: "85-105 minutes" },
+        { from: "Newtown", to: "Newark Airport", time: "100-120 minutes" }
+      ],
+      localServices: ["Airport Shuttle", "Long Distance Travel", "Wedding Transport", "Corporate Accounts"],
+      businessDistricts: ["Church Hill Road", "Queen Street", "Sandy Hook Village"],
+      nearbyAttractions: ["Edmond Town Hall", "Treadwell Park", "Aquila's Nest Vineyards"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "90-110 minutes" },
+        { destination: "LaGuardia Airport", time: "80-100 minutes" },
+        { destination: "Newark Airport", time: "100-120 minutes" },
+        { destination: "Manhattan", time: "85-105 minutes" }
+      ],
+      seoContent: {
+        introduction: "Residents of Newtown, Connecticut, can rely on our Westchester limousine service in Newtown CT for all their long-distance and local transportation needs. With its scenic beauty and community focus, Newtown is a wonderful place to live, and we make traveling from here effortless. Whether heading to a New York airport or a night out in the city, Westchester Limousine provides safe, comfortable, and timely service.",
+        sections: [
+          {
+            title: "Dependable Limousine Service in Newtown",
+            content: "From Sandy Hook to the center of town, our Westchester limousine service in Newtown CT covers all neighborhoods. We offer:",
+            items: [
+              "Comfortable airport transfers",
+              "Business travel solutions",
+              "Wedding and event transportation",
+              "Point-to-point service"
+            ]
+          },
+          {
+            title: "Connecting Newtown to the World",
+            content: "Distance shouldn't be a barrier to luxury. We bridge the gap between Newtown and major travel hubs like JFK and LGA. Choose our Westchester limousine service in Newtown CT for a relaxing ride that starts your trip on the right note.",
+            items: [
+              "Direct airport service",
+              "NYC theater and dinner trips",
+              "Corporate roadshows",
+              "Family vacation transport"
+            ]
+          },
+          {
+            title: "Why Choose Us in Newtown?",
+            content: "We prioritize safety and customer satisfaction. Our professional drivers navigate the best routes to get you there efficiently. Experience the difference with our Westchester limousine service in Newtown CT."
+          }
+        ]
+      }
+    },
+    {
+      name: "Ridgefield",
+      slug: "ridgefield",
+      description: "Ridgefield, known for its colonial architecture and vibrant arts scene, is a cultural gem. Our limousine service offers elegant transportation for residents enjoying the town's history or traveling to the city.",
+      landmarks: ["Aldrich Contemporary Art Museum", "Keeler Tavern Museum", "Ridgefield Playhouse", "Prospect Hill", "Ballard Park"],
+      popularRoutes: [
+        { from: "Ridgefield", to: "JFK Airport", time: "80-100 minutes" },
+        { from: "Ridgefield", to: "LaGuardia Airport", time: "70-90 minutes" },
+        { from: "Ridgefield", to: "Manhattan", time: "75-95 minutes" },
+        { from: "Ridgefield", to: "Newark Airport", time: "90-110 minutes" }
+      ],
+      localServices: ["Cultural Event Transport", "Airport Limo", "Corporate Sedan", "Private Chauffeur"],
+      businessDistricts: ["Main Street", "Danbury Road", "Branchville"],
+      nearbyAttractions: ["Ridgefield Playhouse", "Weir Farm", "Cass Gilbert Fountain"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "80-100 minutes" },
+        { destination: "LaGuardia Airport", time: "70-90 minutes" },
+        { destination: "Newark Airport", time: "90-110 minutes" },
+        { destination: "Manhattan", time: "75-95 minutes" }
+      ],
+      seoContent: {
+        introduction: "Experience the best in luxury travel with our Westchester limousine service in Ridgefield CT. As a town rich in history and culture, Ridgefield deserves transportation that reflects its elegance. Westchester Limousine provides top-tier car service for residents and visitors, ensuring sophisticated travel to airports, NYC, and local venues.",
+        sections: [
+          {
+            title: "Elegant Transport for Ridgefield",
+            content: "Whether visiting the Playhouse or commuting to Wall Street, our service fits your needs. Our Westchester limousine service in Ridgefield CT includes:",
+            items: [
+              "Luxury airport transfers",
+              "Corporate travel management",
+              "Evening out service",
+              "Special event logistics"
+            ]
+          },
+          {
+            title: "Airport Rides Made Easy",
+            content: "Forget the stress of driving to the airport. Our reliable service monitors traffic and flight times to ensure punctuality. Trust our Westchester limousine service in Ridgefield CT for your next trip to JFK, LGA, or EWR.",
+            items: [
+              "Curbside pickup and drop-off",
+              "Luggage assistance",
+              "Comfortable, clean vehicles",
+              "Professional chauffeurs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      name: "Wilton",
+      slug: "wilton",
+      description: "Wilton, a family-oriented town with a strong business community, offers a perfect balance of rural charm and modern convenience. Our limousine service supports the active lifestyles of Wilton residents.",
+      landmarks: ["Weir Farm National Historic Site", "Wilton Historical Society", "Ambler Farm", "Wilton Library", "Merwin Meadows"],
+      popularRoutes: [
+        { from: "Wilton", to: "JFK Airport", time: "75-95 minutes" },
+        { from: "Wilton", to: "LaGuardia Airport", time: "65-85 minutes" },
+        { from: "Wilton", to: "Manhattan", time: "70-90 minutes" },
+        { from: "Wilton", to: "Newark Airport", time: "85-105 minutes" }
+      ],
+      localServices: ["Corporate Commuting", "Airport Services", "Family Transport", "Event Limos"],
+      businessDistricts: ["Wilton Center", "Route 7 Corridor", "Cannondale"],
+      nearbyAttractions: ["Weir Farm", "Wilton Town Center", "Rolling Hills Country Club"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "75-95 minutes" },
+        { destination: "LaGuardia Airport", time: "65-85 minutes" },
+        { destination: "Newark Airport", time: "85-105 minutes" },
+        { destination: "Manhattan", time: "70-90 minutes" }
+      ],
+      seoContent: {
+        introduction: "For reliable and comfortable transportation, choose our Westchester limousine service in Wilton CT. Wilton's blend of rural beauty and corporate presence makes it a unique destination. We provide the professional service residents expect, whether for business trips, airport runs, or family vacations.",
+        sections: [
+          {
+            title: "Professional Service for Wilton",
+            content: "We cater to the diverse needs of Wilton's families and professionals. Our Westchester limousine service in Wilton CT offers:",
+            items: [
+              "Executive fleet for corporate needs",
+              "Safe transport for students and families",
+              "Spacious SUVs for airport luggage",
+              "On-time guarantee"
+            ]
+          },
+          {
+            title: "To the Airport and Beyond",
+            content: "Make your travel seamless. We connect Wilton to all major area airports with efficiency. Our Westchester limousine service in Wilton CT is your partner for stress-free travel.",
+            items: [
+              "JFK, LGA, EWR, HPN service",
+              "Flight tracking included",
+              "Meet and greet options",
+              "24/7 support"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      name: "Trumbull",
+      slug: "trumbull",
+      description: "Trumbull, a vibrant community with excellent parks and shopping, is a hub of activity. Our limousine service provides reliable and comfortable transportation for Trumbull residents to all major destinations.",
+      landmarks: ["Westfield Trumbull Mall", "Indian Ledge Park", "Pequonnock River Trail", "Plumb Memorial Library", "Tashua Knolls"],
+      popularRoutes: [
+        { from: "Trumbull", to: "JFK Airport", time: "85-105 minutes" },
+        { from: "Trumbull", to: "LaGuardia Airport", time: "75-95 minutes" },
+        { from: "Trumbull", to: "Manhattan", time: "80-100 minutes" },
+        { from: "Trumbull", to: "Newark Airport", time: "95-115 minutes" }
+      ],
+      localServices: ["Shopping Trips", "Airport Transfers", "Corporate Travel", "Wedding Limos"],
+      businessDistricts: ["Trumbull Center", "Hawley Lane", "Corporate Park"],
+      nearbyAttractions: ["Westfield Mall", "Beardsley Zoo (nearby)", "Twin Brooks Park"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "85-105 minutes" },
+        { destination: "LaGuardia Airport", time: "75-95 minutes" },
+        { destination: "Newark Airport", time: "95-115 minutes" },
+        { destination: "Manhattan", time: "80-100 minutes" }
+      ],
+      seoContent: {
+        introduction: "Residents of Trumbull, Connecticut, trust our Westchester limousine service in Trumbull CT for all their transportation needs. Trumbull's mix of retail, parks, and residential areas requires a versatile service. We deliver luxury and convenience for every ride.",
+        sections: [
+          {
+            title: "Versatile Transportation for Trumbull",
+            content: "From shopping at the mall to catching a flight, we have you covered. Our Westchester limousine service in Trumbull CT is perfect for:",
+            items: [
+              "Airport transfers",
+              "NYC shopping and dining trips",
+              "Corporate events",
+              "Local celebrations"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      name: "Shelton",
+      slug: "shelton",
+      description: "Shelton, with its growing corporate district and scenic riverfront, is on the rise. Our limousine service meets the needs of Shelton's businesses and residents with professional, high-quality transportation.",
+      landmarks: ["Shelton Riverwalk", "Indian Well State Park", "Sports Center of Connecticut", "Jones Family Farms", "Corporate Towers"],
+      popularRoutes: [
+        { from: "Shelton", to: "JFK Airport", time: "90-110 minutes" },
+        { from: "Shelton", to: "LaGuardia Airport", time: "80-100 minutes" },
+        { from: "Shelton", to: "Manhattan", time: "85-105 minutes" },
+        { from: "Shelton", to: "Newark Airport", time: "100-120 minutes" }
+      ],
+      localServices: ["Corporate Shuttles", "Airport Service", "Wedding Transport", "Executive Travel"],
+      businessDistricts: ["Bridgeport Avenue", "Downtown Shelton", "Enterprise Corporate Park"],
+      nearbyAttractions: ["Riverview Park", "Jones Family Farms", "Housatonic River"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "90-110 minutes" },
+        { destination: "LaGuardia Airport", time: "80-100 minutes" },
+        { destination: "Newark Airport", time: "100-120 minutes" },
+        { destination: "Manhattan", time: "85-105 minutes" }
+      ],
+      seoContent: {
+        introduction: "For top-quality transportation, rely on our Westchester limousine service in Shelton CT. As a growing business hub, Shelton demands professional and reliable car service. We provide executive travel and personal transport that meets the highest standards.",
+        sections: [
+          {
+            title: "Corporate and Personal Travel in Shelton",
+            content: "Shelton's corporate corridors and residential neighborhoods are well-served by our fleet. Our Westchester limousine service in Shelton CT ensures:",
+            items: [
+              "Punctual corporate pickups",
+              "Comfortable airport commutes",
+              "Stress-free city travel",
+              "Luxury event transport"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      name: "Stratford",
+      slug: "stratford",
+      description: "Stratford, located on the Long Island Sound, offers history and coastal beauty. Our limousine service provides residents with premium transportation to airports and cities across the region.",
+      landmarks: ["Stratford Point Lighthouse", "Boothe Memorial Park", "Short Beach", "National Helicopter Museum", "Shakespeare Academy"],
+      popularRoutes: [
+        { from: "Stratford", to: "JFK Airport", time: "80-100 minutes" },
+        { from: "Stratford", to: "LaGuardia Airport", time: "70-90 minutes" },
+        { from: "Stratford", to: "Manhattan", time: "75-95 minutes" },
+        { from: "Stratford", to: "Newark Airport", time: "90-110 minutes" }
+      ],
+      localServices: ["Airport Transportation", "Coastal Tours", "Wedding Limos", "Night Out Service"],
+      businessDistricts: ["Stratford Center", "Barnum Avenue", "Lordship"],
+      nearbyAttractions: ["Lordship Seawall", "Short Beach Park", "Two Roads Brewing"],
+      travelTimes: [
+        { destination: "JFK Airport", time: "80-100 minutes" },
+        { destination: "LaGuardia Airport", time: "70-90 minutes" },
+        { destination: "Newark Airport", time: "90-110 minutes" },
+        { destination: "Manhattan", time: "75-95 minutes" }
+      ],
+      seoContent: {
+        introduction: "Enjoy the scenic coast and rich history of Stratford with our Westchester limousine service in Stratford CT. We offer reliable, comfortable transportation to connect you to the rest of the Tri-State area.",
+        sections: [
+          {
+            title: "Stratford's Premier Limo Service",
+            content: "Whether you live in Lordship or near the center, our service is available for you. Our Westchester limousine service in Stratford CT provides:",
+            items: [
+              "Reliable airport connections",
+              "Special occasion transport",
+              "City trips",
+              "Local tours"
+            ]
+          }
+        ]
+      }
     }
   ],
   features: [

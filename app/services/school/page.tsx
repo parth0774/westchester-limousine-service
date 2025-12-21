@@ -4,6 +4,15 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Shield, Users, Clock } from "lucide-react"
 import { Metadata } from "next"
+import { Breadcrumbs } from "@/components/breadcrumbs"
+
+export const metadata: Metadata = {
+  title: "School Transportation | Westchester Limousine",
+  description: "Safe and reliable private school transportation in Westchester County. Background-checked drivers and verified routes.",
+  alternates: {
+    canonical: "/services/school",
+  },
+}
 
 export default function SchoolTransportationPage() {
   return (
@@ -11,6 +20,13 @@ export default function SchoolTransportationPage() {
       <Header />
 
       <main>
+        <Breadcrumbs
+          className="container mx-auto px-4 sm:px-6 lg:px-8 py-4"
+          items={[
+            { label: "Services", href: "/services" },
+            { label: "School Transportation", href: "/services/school" },
+          ]}
+        />
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-background to-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">

@@ -37,6 +37,16 @@ const vehicles = [
   },
 ]
 
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Our Fleet | Westchester Limousine",
+  description: "Explore our luxury fleet of sedans, SUVs, limousines, and vans. Premium vehicles for every occasion.",
+  alternates: {
+    canonical: "/fleet",
+  },
+}
+
 export default function FleetPage() {
   return (
     <div className="min-h-screen">
