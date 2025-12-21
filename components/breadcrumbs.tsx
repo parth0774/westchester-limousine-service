@@ -58,7 +58,7 @@ export function Breadcrumbs({ className, items }: BreadcrumbsProps) {
           {breadcrumbList.map((item, index) => {
             const isLast = index === breadcrumbList.length - 1
             return (
-              <li key={item.href} className="flex items-center">
+              <li key={`breadcrumb-${index}-${item.href}`} className="flex items-center">
                 {index > 0 && <ChevronRight className="h-4 w-4 text-muted-foreground mx-1" />}
                 {index === 0 ? (
                   <Link
