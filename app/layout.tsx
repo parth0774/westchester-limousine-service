@@ -51,15 +51,61 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://westchesterlimousine.net/#organization",
+              name: "Westchester Limousine",
+              legalName: "Westchester Limousine",
+              url: "https://westchesterlimousine.net",
+              logo: "https://westchesterlimousine.net/og-image.jpg",
+              image: "https://westchesterlimousine.net/og-image.jpg",
+              description: "Westchester Limousine provides professional chauffeur and executive car service in Mohegan Lake, NY, serving Westchester County, Putnam, Dutchess County, Connecticut, and the greater New York area.",
+              telephone: "+19142221919",
+              email: "info.westchesterlimousine@gmail.com",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "2945 Lexington Avenue",
+                addressLocality: "Mohegan Lake",
+                addressRegion: "NY",
+                postalCode: "10547",
+                addressCountry: "US",
+              },
+              foundingDate: "1995",
+              areaServed: [
+                {
+                  "@type": "State",
+                  name: "New York"
+                },
+                {
+                  "@type": "State",
+                  name: "Connecticut"
+                },
+                {
+                  "@type": "City",
+                  name: "New York City"
+                }
+              ],
+              sameAs: [
+                "https://westchesterlimousine.net"
+              ]
+            }),
+          }}
+        />
+        {/* LocalBusiness Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              name: "Westchester Limousine",
-              image: "https://westchesterlimousine.net/og-image.jpg", // Assuming an image exists or will exist
               "@id": "https://westchesterlimousine.net",
+              name: "Westchester Limousine",
+              image: "https://westchesterlimousine.net/og-image.jpg",
               url: "https://westchesterlimousine.net",
               telephone: "+19142221919",
               email: "info.westchesterlimousine@gmail.com",
@@ -73,8 +119,8 @@ export default function RootLayout({
               },
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: 41.3164, // Approximate lat for Mohegan Lake
-                longitude: -73.8656, // Approximate lon for Mohegan Lake
+                latitude: 41.3164,
+                longitude: -73.8656,
               },
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",

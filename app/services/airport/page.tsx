@@ -526,6 +526,55 @@ export default function AirportServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* Related Content */}
+        <section className="py-16 bg-secondary">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+                Learn More About Airport Transportation
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Plane className="h-5 w-5 text-accent" />
+                      Airport Transportation Guide
+                    </CardTitle>
+                    <CardDescription>
+                      Complete guide to reliable airport transfers from Westchester to all major NYC airports.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/blog/airport-transportation-westchester-county-guide">
+                        Read Guide <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-accent" />
+                      Service Areas
+                    </CardTitle>
+                    <CardDescription>
+                      We serve all of Westchester County, Putnam, Dutchess, and surrounding areas.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Button variant="outline" asChild className="w-full">
+                      <Link href="/service-areas">
+                        View Service Areas <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
