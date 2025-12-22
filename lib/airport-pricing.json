@@ -1,0 +1,699 @@
+{
+  "routes": [
+    {
+      "town": "amawalk",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "armonk",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 60,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "bedford",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "bedford hills",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "beacon",
+      "destinations": {
+        "lga": 225,
+        "jfk": 240,
+        "ewr": 255,
+        "hpn": 160,
+        "nyc above 42nd": 225,
+        "nyc below 42nd": 240
+      }
+    },
+    {
+      "town": "brewster",
+      "destinations": {
+        "lga": 180,
+        "jfk": 190,
+        "ewr": 220,
+        "hpn": 100,
+        "nyc above 42nd": 180,
+        "nyc below 42nd": 195
+      }
+    },
+    {
+      "town": "briarcliff manor",
+      "destinations": {
+        "lga": 145,
+        "jfk": 165,
+        "ewr": 180,
+        "hpn": 75,
+        "nyc above 42nd": 145,
+        "nyc below 42nd": 165
+      }
+    },
+    {
+      "town": "buchanan",
+      "destinations": {
+        "lga": 145,
+        "jfk": 165,
+        "ewr": 180,
+        "hpn": 90,
+        "nyc above 42nd": 145,
+        "nyc below 42nd": 165
+      }
+    },
+    {
+      "town": "carmel",
+      "destinations": {
+        "lga": 175,
+        "jfk": 190,
+        "ewr": 210,
+        "hpn": 105,
+        "nyc above 42nd": 180,
+        "nyc below 42nd": 190
+      }
+    },
+    {
+      "town": "chappaqua",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "cortland manor",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "cold spring",
+      "destinations": {
+        "lga": 190,
+        "jfk": 200,
+        "ewr": 210,
+        "hpn": 120,
+        "nyc above 42nd": 190,
+        "nyc below 42nd": 200
+      }
+    },
+    {
+      "town": "croton on hudson",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "fishkill",
+      "destinations": {
+        "lga": 225,
+        "jfk": 240,
+        "ewr": 255,
+        "hpn": 160,
+        "nyc above 42nd": 225,
+        "nyc below 42nd": 240
+      }
+    },
+    {
+      "town": "garrison",
+      "destinations": {
+        "lga": 180,
+        "jfk": 195,
+        "ewr": 210,
+        "hpn": 115,
+        "nyc above 42nd": 185,
+        "nyc below 42nd": 195
+      }
+    },
+    {
+      "town": "golden's bridge",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 90,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "hawthorne",
+      "destinations": {
+        "lga": 145,
+        "jfk": 165,
+        "ewr": 180,
+        "hpn": 75,
+        "nyc above 42nd": 145,
+        "nyc below 42nd": 165
+      }
+    },
+    {
+      "town": "katonah",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "mahopac",
+      "destinations": {
+        "lga": 160,
+        "jfk": 175,
+        "ewr": 190,
+        "hpn": 90,
+        "nyc above 42nd": 175,
+        "nyc below 42nd": 195
+      }
+    },
+    {
+      "town": "montrose",
+      "destinations": {
+        "lga": 145,
+        "jfk": 165,
+        "ewr": 180,
+        "hpn": 90,
+        "nyc above 42nd": 145,
+        "nyc below 42nd": 165
+      }
+    },
+    {
+      "town": "mohegan lake",
+      "destinations": {
+        "lga": 155,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 85,
+        "nyc above 42nd": 165,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "millwood",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "mount kisco",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "north salem",
+      "destinations": {
+        "lga": 160,
+        "jfk": 175,
+        "ewr": 190,
+        "hpn": 95,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "ossining",
+      "destinations": {
+        "lga": 145,
+        "jfk": 165,
+        "ewr": 180,
+        "hpn": 75,
+        "nyc above 42nd": 145,
+        "nyc below 42nd": 165
+      }
+    },
+    {
+      "town": "peekskill",
+      "destinations": {
+        "lga": 160,
+        "jfk": 175,
+        "ewr": 190,
+        "hpn": 95,
+        "nyc above 42nd": 165,
+        "nyc below 42nd": 180
+      }
+    },
+    {
+      "town": "pleasantville",
+      "destinations": {
+        "lga": 145,
+        "jfk": 165,
+        "ewr": 180,
+        "hpn": 75,
+        "nyc above 42nd": 145,
+        "nyc below 42nd": 165
+      }
+    },
+    {
+      "town": "pound ridge",
+      "destinations": {
+        "lga": 165,
+        "jfk": 180,
+        "ewr": 195,
+        "hpn": 90,
+        "nyc above 42nd": 175,
+        "nyc below 42nd": 185
+      }
+    },
+    {
+      "town": "purdys",
+      "destinations": {
+        "lga": 160,
+        "jfk": 180,
+        "ewr": 195,
+        "hpn": 90,
+        "nyc above 42nd": 175,
+        "nyc below 42nd": 185
+      }
+    },
+    {
+      "town": "putnam valley",
+      "destinations": {
+        "lga": 160,
+        "jfk": 175,
+        "ewr": 190,
+        "hpn": 105,
+        "nyc above 42nd": 165,
+        "nyc below 42nd": 180
+      }
+    },
+    {
+      "town": "shenorock",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "shrub oak",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "somers",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "south salem",
+      "destinations": {
+        "lga": 155,
+        "jfk": 185,
+        "ewr": 185,
+        "hpn": 95,
+        "nyc above 42nd": 175,
+        "nyc below 42nd": 185
+      }
+    },
+    {
+      "town": "thornwood",
+      "destinations": {
+        "lga": 145,
+        "jfk": 165,
+        "ewr": 180,
+        "hpn": 75,
+        "nyc above 42nd": 145,
+        "nyc below 42nd": 165
+      }
+    },
+    {
+      "town": "verplanck",
+      "destinations": {
+        "lga": 145,
+        "jfk": 165,
+        "ewr": 180,
+        "hpn": 90,
+        "nyc above 42nd": 145,
+        "nyc below 42nd": 165
+      }
+    },
+    {
+      "town": "waccabuc",
+      "destinations": {
+        "lga": 160,
+        "jfk": 180,
+        "ewr": 195,
+        "hpn": 95,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 180
+      }
+    },
+    {
+      "town": "yorktown heights",
+      "destinations": {
+        "lga": 150,
+        "jfk": 170,
+        "ewr": 185,
+        "hpn": 75,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
+      }
+    },
+    {
+      "town": "yonkers",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "new rochelle",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "mount vernon",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "white plains",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 85
+      }
+    },
+    {
+      "town": "rye",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 85
+      }
+    },
+    {
+      "town": "harrison",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "mamaroneck",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "scarsdale",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "greenburgh",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 85
+      }
+    },
+    {
+      "town": "port chester",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "north castle",
+      "destinations": {
+        "jfk": 170,
+        "ewr": 185,
+        "nyc 1": 170,
+        "nyc 2": 185,
+        "hpn": 75
+      }
+    },
+    {
+      "town": "lewisboro",
+      "destinations": {
+        "jfk": 175,
+        "ewr": 190,
+        "nyc 1": 170,
+        "nyc 2": 185,
+        "hpn": 85
+      }
+    },
+    {
+      "town": "pelham",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "eastchester",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 85
+      }
+    },
+    {
+      "town": "sleepy hollow",
+      "destinations": {
+        "jfk": 170,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 80
+      }
+    },
+    {
+      "town": "dobbs ferry",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "bronxville",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "tuckahoe",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "pelham manor",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "irvington",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "hastings-on-hudson",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "ardsley",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "larchmont",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "rye brook",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 85
+      }
+    },
+    {
+      "town": "tarrytown",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 90
+      }
+    },
+    {
+      "town": "elmsford",
+      "destinations": {
+        "jfk": 150,
+        "ewr": 170,
+        "nyc 1": 130,
+        "nyc 2": 140,
+        "hpn": 85
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-15",
+    "description": "Airport and NYC pricing data for pickup towns",
+    "currency": "USD",
+    "destinations": {
+      "lga": "LaGuardia Airport",
+      "jfk": "John F. Kennedy International Airport",
+      "ewr": "Newark Liberty International Airport",
+      "hpn": "Westchester County Airport",
+      "nyc above 42nd": "New York City Above 42nd Street",
+      "nyc below 42nd": "New York City Below 42nd Street",
+      "nyc 1": "New York City Zone 1",
+      "nyc 2": "New York City Zone 2"
+    }
+  }
+}
+
