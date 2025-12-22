@@ -81,12 +81,12 @@ export default function CityPage({ params }: { params: { area: string; city: str
 
   return (
     <div className="min-h-screen">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
       <Header />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-background to-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -419,7 +419,6 @@ export default function CityPage({ params }: { params: { area: string; city: str
                     </Link>
                   ))}
                 </div>
-              </div>
               </div>
             </div>
           </div>
