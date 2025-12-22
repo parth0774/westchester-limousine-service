@@ -51,6 +51,9 @@ export function Header() {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
+            <Link href="/get-quote" className="text-foreground hover:text-accent transition-colors">
+              Get a Quote
+            </Link>
             <Link href="/fleet" className="text-foreground hover:text-accent transition-colors">
               Fleet
             </Link>
@@ -66,6 +69,9 @@ export function Header() {
                 <Phone className="mr-2 h-4 w-4" />
                 (914) 222-1919
               </Link>
+            </Button>
+            <Button size="sm" variant="outline" asChild>
+              <Link href="/get-quote">Get a Quote</Link>
             </Button>
             <Button size="sm" asChild>
               <Link href="/contact">Book Now</Link>
@@ -108,6 +114,9 @@ export function Header() {
                 </Link>
               </div>
 
+              <Link href="/get-quote" className="w-full py-3 text-lg font-medium text-foreground hover:text-accent border-b border-border/50 transition-colors">
+                Get a Quote
+              </Link>
               <Link href="/fleet" className="w-full py-3 text-lg font-medium text-foreground hover:text-accent border-b border-border/50 transition-colors">
                 Fleet
               </Link>
@@ -117,6 +126,9 @@ export function Header() {
 
               <div className="flex flex-col space-y-3 pt-6 mt-2">
                 <Button size="lg" className="w-full text-base" asChild>
+                  <Link href="/get-quote">Get a Quote</Link>
+                </Button>
+                <Button variant="outline" size="lg" className="w-full text-base" asChild>
                   <Link href="/contact">Book Now</Link>
                 </Button>
                 <Button variant="outline" size="lg" className="w-full text-base" asChild>

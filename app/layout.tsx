@@ -5,6 +5,7 @@ import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import Script from "next/script"
+import { Toaster } from "@/components/ui/toaster"
 import "./globals.css"
 
 export const viewport = {
@@ -147,6 +148,7 @@ export default function RootLayout({
           }}
         />
         <Suspense fallback={null}>{children}</Suspense>
+        <Toaster />
         <Analytics />
       </body>
     </html>

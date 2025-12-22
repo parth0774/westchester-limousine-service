@@ -62,6 +62,28 @@ export function getPrice(pickup: string, dropoff: string): number | null {
     }
   }
 
+  // Try reverse lookup: if pickup is NYC and dropoff is a town, 
+  // try to find a route where town is pickup and NYC is dropoff
+  const isNYCPickup = normalizedPickup === "nyc above 42nd" || normalizedPickup === "nyc below 42nd"
+  if (isNYCPickup) {
+    for (const route of pricingData.routes) {
+      // Check if dropoff matches any pickup location in this route
+      const dropoffMatch = route.pickupLocations.some(
+        (loc) => normalizeLocation(loc) === normalizedDropoff
+      )
+
+      if (dropoffMatch) {
+        // Check if NYC exists in this route's dropoffs
+        for (const [dropoffLocation, price] of Object.entries(route.dropoffs)) {
+          const normalizedDropoffLoc = normalizeLocation(dropoffLocation)
+          if (normalizedDropoffLoc === normalizedPickup) {
+            return price
+          }
+        }
+      }
+    }
+  }
+
   return null
 }
 
@@ -103,6 +125,36 @@ export function getPriceFuzzy(pickup: string, dropoff: string): number | null {
           normalizedDropoff.includes(normalizedDropoffLoc)
         ) {
           return price
+        }
+      }
+    }
+  }
+
+  // Try reverse lookup with fuzzy matching: if pickup is NYC and dropoff is a town
+  const isNYCPickup = normalizedPickup === "nyc above 42nd" || normalizedPickup === "nyc below 42nd"
+  if (isNYCPickup) {
+    for (const route of pricingData.routes) {
+      // Check if dropoff matches any pickup location in this route (fuzzy)
+      const dropoffMatch = route.pickupLocations.some((loc) => {
+        const normalizedLoc = normalizeLocation(loc)
+        return (
+          normalizedLoc === normalizedDropoff ||
+          normalizedLoc.includes(normalizedDropoff) ||
+          normalizedDropoff.includes(normalizedLoc)
+        )
+      })
+
+      if (dropoffMatch) {
+        // Check if NYC exists in this route's dropoffs (fuzzy)
+        for (const [dropoffLocation, price] of Object.entries(route.dropoffs)) {
+          const normalizedDropoffLoc = normalizeLocation(dropoffLocation)
+          if (
+            normalizedDropoffLoc === normalizedPickup ||
+            normalizedDropoffLoc.includes(normalizedPickup) ||
+            normalizedPickup.includes(normalizedDropoffLoc)
+          ) {
+            return price
+          }
         }
       }
     }

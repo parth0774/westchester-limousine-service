@@ -9,7 +9,9 @@
         "bedford hills",
         "bedford",
         "katonah",
-        "pound ridge"
+        "pound ridge",
+        "nyc above 42nd",
+        "nyc below 42nd"
       ],
       "dropoffs": {
         "new rochelle": 75,
@@ -89,7 +91,9 @@
         "new fairfield": 75,
         "brookfield": 100,
         "bethel": 90,
-        "westport": 90
+        "westport": 90,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
       }
     },
     {
@@ -108,7 +112,9 @@
         "amawalk",
         "crompond",
         "cortlandt manor",
-        "cortlandt"
+        "cortlandt",
+        "nyc above 42nd",
+        "nyc below 42nd"
       ],
       "dropoffs": {
         "new rochelle": 90,
@@ -188,7 +194,9 @@
         "new fairfield": 90,
         "brookfield": 90,
         "bethel": 80,
-        "westport": 100
+        "westport": 100,
+        "nyc above 42nd": 160,
+        "nyc below 42nd": 175
       }
     }
   ],

@@ -197,6 +197,16 @@ export function getAllDestinations(): string[] {
 }
 
 /**
+ * Gets only airport destinations (excludes NYC zones)
+ * @returns Array of airport destination keys (lga, jfk, ewr, hpn)
+ */
+export function getAirportDestinations(): string[] {
+  const airports = ['lga', 'jfk', 'ewr', 'hpn']
+  const allDestinations = getAllDestinations()
+  return airports.filter(airport => allDestinations.includes(airport))
+}
+
+/**
  * Gets the display name for a destination
  * @param destination - The destination key (e.g., "lga", "jfk", "nyc above 42nd")
  * @returns The human-readable display name
