@@ -81,7 +81,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
                 {area.name}
               </h1>
               <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-                {area.description}
+                {area.description} We provide comprehensive <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service {area.name}</Link>, <Link href="/services/corporate" className="text-accent hover:underline font-semibold">corporate transportation {area.name}</Link>, and <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo {area.name}</Link> throughout the region.
               </p>
             </div>
           </div>
@@ -93,7 +93,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl font-bold text-foreground mb-4 text-center">Cities We Serve in {area.name}</h2>
               <p className="text-center text-muted-foreground mb-8">
-                Click on any city below to learn more about our services in that location.
+                Click on any city below to learn more about our <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service</Link>, <Link href="/services/corporate" className="text-accent hover:underline font-semibold">corporate transportation</Link>, and <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo</Link> services in that location.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {area.cities.map((city, index) => (
@@ -132,7 +132,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
         </section>
 
         {/* Services We Offer */}
-        <section className="py-16">
+        <section className="py-16 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Transportation Services We Offer</h2>
@@ -141,10 +141,10 @@ export default function AreaPage({ params }: { params: { area: string } }) {
                   <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
                     <div className="flex items-center gap-3 mb-3">
                       <Plane className="h-6 w-6 text-accent" />
-                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Airport Services</h3>
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Airport Limo Service {area.name}</h3>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Reliable airport transfers to JFK, LaGuardia, Newark, and Westchester County Airport.
+                      Reliable <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service {area.name}</Link> to JFK, LaGuardia, Newark, and Westchester County Airport with professional chauffeurs.
                     </p>
                     <span className="text-accent font-semibold flex items-center group-hover:translate-x-1 transition-transform">
                       Learn More <ArrowRight className="ml-2 h-4 w-4" />
@@ -155,10 +155,10 @@ export default function AreaPage({ params }: { params: { area: string } }) {
                   <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
                     <div className="flex items-center gap-3 mb-3">
                       <Briefcase className="h-6 w-6 text-accent" />
-                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Corporate Travel</h3>
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Corporate Transportation {area.name}</h3>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Executive car service for business professionals with priority booking.
+                      Professional <Link href="/services/corporate" className="text-accent hover:underline font-semibold">corporate transportation {area.name}</Link> for business professionals with priority booking and account management.
                     </p>
                     <span className="text-accent font-semibold flex items-center group-hover:translate-x-1 transition-transform">
                       Learn More <ArrowRight className="ml-2 h-4 w-4" />
@@ -169,10 +169,10 @@ export default function AreaPage({ params }: { params: { area: string } }) {
                   <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
                     <div className="flex items-center gap-3 mb-3">
                       <Heart className="h-6 w-6 text-accent" />
-                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Events & Weddings</h3>
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Wedding Limo {area.name}</h3>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Luxury transportation for weddings, proms, and special events.
+                      Luxury <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo {area.name}</Link> transportation for weddings, proms, and special events with elegant vehicles.
                     </p>
                     <span className="text-accent font-semibold flex items-center group-hover:translate-x-1 transition-transform">
                       Learn More <ArrowRight className="ml-2 h-4 w-4" />
@@ -186,7 +186,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
                       <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Hourly Service</h3>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Flexible hourly limo service for meetings, shopping, or city-to-city transfers.
+                      Flexible hourly limo service for meetings, shopping, or city-to-city transfers throughout {area.name}.
                     </p>
                     <span className="text-accent font-semibold flex items-center group-hover:translate-x-1 transition-transform">
                       Learn More <ArrowRight className="ml-2 h-4 w-4" />
@@ -200,7 +200,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
                       <h3 className="text-xl font-bold text-foreground group-hover:text-accent">School Transportation</h3>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Safe and reliable private school transportation services.
+                      Safe and reliable private school transportation services in {area.name}.
                     </p>
                     <span className="text-accent font-semibold flex items-center group-hover:translate-x-1 transition-transform">
                       Learn More <ArrowRight className="ml-2 h-4 w-4" />

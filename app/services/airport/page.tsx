@@ -150,7 +150,7 @@ export default function AirportServicesPage() {
               </h1>
 
               <p className="text-xl lg:text-2xl text-gray-200 mb-6 leading-relaxed max-w-3xl">
-                Premium car service to JFK, LaGuardia, Newark, HPN and all major NYC airports. Professional chauffeurs, luxury vehicles, real-time flight tracking, and guaranteed on-time service.
+                Premium <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service Westchester</Link> to JFK, LaGuardia, Newark, HPN and all major NYC airports. Our <Link href="/service-areas/westchester-county-ny/white-plains" className="text-accent hover:underline font-semibold">airport limo service White Plains</Link> and <Link href="/service-areas/westchester-county-ny/scarsdale" className="text-accent hover:underline font-semibold">airport limo service Scarsdale</Link> routes are among our most popular. Professional chauffeurs, luxury vehicles, real-time flight tracking, and guaranteed on-time service.
               </p>
 
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-10">
@@ -188,7 +188,7 @@ export default function AirportServicesPage() {
               </div>
 
               <p className="text-sm text-gray-300">
-                <strong className="text-white">Serving all of Westchester County:</strong> White Plains, Scarsdale, Rye, New Rochelle, Yonkers, and surrounding areas
+                <strong className="text-white">Serving all of Westchester County:</strong> <Link href="/service-areas/westchester-county-ny/white-plains" className="text-accent hover:underline">White Plains</Link>, <Link href="/service-areas/westchester-county-ny/scarsdale" className="text-accent hover:underline">Scarsdale</Link>, <Link href="/service-areas/westchester-county-ny/rye" className="text-accent hover:underline">Rye</Link>, <Link href="/service-areas/westchester-county-ny/new-rochelle" className="text-accent hover:underline">New Rochelle</Link>, <Link href="/service-areas/westchester-county-ny/yonkers" className="text-accent hover:underline">Yonkers</Link>, and surrounding areas. Explore our <Link href="/service-areas/westchester-county-ny" className="text-accent hover:underline font-semibold">limo service Westchester County</Link> coverage.
               </p>
             </div>
           </div>
@@ -456,7 +456,7 @@ export default function AirportServicesPage() {
 
             <div className="mt-8 text-center bg-gradient-to-br from-accent/5 to-transparent border border-accent/20 rounded-xl p-6 max-w-3xl mx-auto">
               <p className="text-muted-foreground text-base">
-                <strong className="text-foreground">Don't see your location?</strong> We serve all of Westchester, Putnam, Dutchess, and Fairfield Counties. <Link href="/contact" className="text-accent font-semibold hover:underline">Contact us</Link> for service to your area.
+                <strong className="text-foreground">Don't see your location?</strong> We serve all of <Link href="/service-areas/westchester-county-ny" className="text-accent font-semibold hover:underline">Westchester County</Link>, <Link href="/service-areas/putnam-county-ny" className="text-accent font-semibold hover:underline">Putnam County</Link>, <Link href="/service-areas/dutchess-county-ny" className="text-accent font-semibold hover:underline">Dutchess County</Link>, and <Link href="/service-areas/fairfield-county-ct" className="text-accent font-semibold hover:underline">Fairfield County</Link>. <Link href="/contact" className="text-accent font-semibold hover:underline">Contact us</Link> for <Link href="/services/airport" className="text-accent font-semibold hover:underline">airport limo service</Link> to your area.
               </p>
             </div>
           </div>

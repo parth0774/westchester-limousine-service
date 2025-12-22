@@ -107,13 +107,13 @@ export function FeaturesSection() {
               Call us at <a href="tel:914-222-1919" className="text-accent font-semibold hover:underline">(914) 222-1919</a> or book online in minutes
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              <Link href="/services/airport" className="text-accent hover:underline font-medium">Airport Services</Link>
+              <Link href="/services/airport" className="text-accent hover:underline font-semibold">Airport Limo Service Westchester</Link>
               <span className="text-muted-foreground">•</span>
-              <Link href="/services/corporate" className="text-accent hover:underline font-medium">Corporate Travel</Link>
+              <Link href="/services/corporate" className="text-accent hover:underline font-semibold">Executive Limo Service Westchester</Link>
               <span className="text-muted-foreground">•</span>
-              <Link href="/services/events" className="text-accent hover:underline font-medium">Events & Weddings</Link>
+              <Link href="/services/events" className="text-accent hover:underline font-semibold">Wedding Limo Service Westchester</Link>
               <span className="text-muted-foreground">•</span>
-              <Link href="/service-areas" className="text-accent hover:underline font-medium">Service Areas</Link>
+              <Link href="/service-areas" className="text-accent hover:underline font-semibold">Limo Service Westchester County</Link>
             </div>
           </div>
         </div>

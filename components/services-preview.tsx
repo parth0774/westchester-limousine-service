@@ -8,19 +8,19 @@ const services = [
     icon: Plane,
     title: "Airport Car Service",
     description:
-      "Reliable door-to-door service to and from JFK, LGA, EWR, HPN, and all major airports. We track your flight in real-time and guarantee punctual pickups.",
+      "Reliable airport limo service Westchester to and from JFK, LGA, EWR, HPN, and all major airports. We track your flight in real-time and guarantee punctual pickups.",
     href: "/services/airport",
     featured: true,
-    ctaText: "Explore Airport Transfer Services"
+    ctaText: "Explore Airport Limo Service Westchester"
   },
   {
     icon: Briefcase,
     title: "Corporate Travel",
     description:
-      "Executive car service for business professionals. Travel in comfort and style with professional chauffeurs and priority booking for corporate clients.",
+      "Executive limo service Westchester for business professionals. Travel in comfort and style with professional chauffeurs and priority booking for corporate clients.",
     href: "/services/corporate",
     featured: true,
-    ctaText: "Discover Corporate Limousine Solutions"
+    ctaText: "Discover Executive Limo Service Westchester"
   },
   {
     icon: Plane,
@@ -53,10 +53,10 @@ const services = [
     icon: Heart,
     title: "Proms, Weddings & Events",
     description:
-      "Arrive in style for your special day. Our luxury sedans, SUVs, and executive shuttles make any occasion unforgettable.",
+      "Wedding limo service Westchester for your special day. Our luxury sedans, SUVs, and executive shuttles make any occasion unforgettable.",
     href: "/services/events",
     featured: false,
-    ctaText: "Special Event Transportation"
+    ctaText: "Wedding Limo Service Westchester"
   }
 ]
 
@@ -79,7 +79,7 @@ export function ServicesPreview() {
             Premium Transportation Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Whether you need an airport transfer, executive car, or luxury ride for a special occasion, 
+            Whether you need an <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service Westchester</Link>, <Link href="/services/corporate" className="text-accent hover:underline font-semibold">executive limo service Westchester</Link>, or <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo service Westchester</Link> for a special occasion, 
             Westchester Limousine delivers comfort, reliability, and first-class service every time.
           </p>
         </div>
@@ -117,7 +117,15 @@ export function ServicesPreview() {
                       {service.title}
                     </CardTitle>
                     <CardDescription className="text-base leading-relaxed">
-                      {service.description}
+                      {service.title === "Airport Car Service" ? (
+                        <>Reliable <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service Westchester</Link> to and from JFK, LGA, EWR, HPN, and all major airports. We track your flight in real-time and guarantee punctual pickups.</>
+                      ) : service.title === "Corporate Travel" ? (
+                        <><Link href="/services/corporate" className="text-accent hover:underline font-semibold">Executive limo service Westchester</Link> for business professionals. Travel in comfort and style with professional chauffeurs and priority booking for corporate clients.</>
+                      ) : service.title === "Proms, Weddings & Events" ? (
+                        <><Link href="/services/events" className="text-accent hover:underline font-semibold">Wedding limo service Westchester</Link> for your special day. Our luxury sedans, SUVs, and executive shuttles make any occasion unforgettable.</>
+                      ) : (
+                        service.description
+                      )}
                     </CardDescription>
                   </div>
                 </CardHeader>

@@ -85,8 +85,8 @@ export function HomeAboutUs() {
               <p className="text-justify">
                 Our mission is simple. We provide a seamless and luxurious ground
                 transportation experience for every client. Whether you are
-                catching a flight with our <Link href="/services/airport" className="text-accent hover:underline">airport services</Link>, attending a business meeting with our <Link href="/services/corporate" className="text-accent hover:underline">corporate travel</Link>, or celebrating a
-                special occasion with our <Link href="/services/events" className="text-accent hover:underline">event transportation</Link>, our chauffeurs ensure that you arrive safely and
+                catching a flight with our <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service Westchester</Link>, attending a business meeting with our <Link href="/services/corporate" className="text-accent hover:underline font-semibold">executive limo service Westchester</Link>, or celebrating a
+                special occasion with our <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo service Westchester</Link>, our chauffeurs ensure that you arrive safely and
                 on time.
               </p>
               <p className="text-justify">

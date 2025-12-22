@@ -128,6 +128,7 @@ export default function CityPage({ params }: { params: { area: string; city: str
                   <div className="mb-16">
                     <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
                       {city.seoContent.introduction}
+                      {" "}Whether you need <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service in {city.name}</Link>, <Link href="/services/corporate" className="text-accent hover:underline font-semibold">executive limo service {city.name}</Link>, or <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo {city.name} NY</Link>, Westchester Limousine provides professional <Link href={`/service-areas/${params.area}/${params.city}`} className="text-accent hover:underline font-semibold">limo service in {city.name}, NY</Link> throughout {area.name}.
                     </p>
                   </div>
                 )}
@@ -142,6 +143,7 @@ export default function CityPage({ params }: { params: { area: string; city: str
                       </h2>
                       <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                         {section.content}
+                        {" "}Our <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service in {city.name}</Link> connects you to JFK, LaGuardia, and Newark airports, while our <Link href="/services/corporate" className="text-accent hover:underline font-semibold">corporate car service {city.name}</Link> ensures punctual arrivals for business meetings. For special occasions, our <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo {city.name} NY</Link> service adds elegance to your celebration.
                       </p>
                     </div>
                     
@@ -340,10 +342,10 @@ export default function CityPage({ params }: { params: { area: string; city: str
                   <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
                     <div className="flex items-center gap-3 mb-3">
                       <Plane className="h-6 w-6 text-accent" />
-                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Airport Services</h3>
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Airport Limo Service in {city.name}</h3>
                     </div>
                     <p className="text-muted-foreground">
-                      Reliable airport transfers to JFK, LaGuardia, Newark, and Westchester County Airport.
+                      Reliable <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service in {city.name}</Link> to JFK, LaGuardia, Newark, and Westchester County Airport with professional chauffeurs and luxury vehicles.
                     </p>
                   </div>
                 </Link>
@@ -351,10 +353,10 @@ export default function CityPage({ params }: { params: { area: string; city: str
                   <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
                     <div className="flex items-center gap-3 mb-3">
                       <Briefcase className="h-6 w-6 text-accent" />
-                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Corporate Travel</h3>
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Executive Limo Service {city.name}</h3>
                     </div>
                     <p className="text-muted-foreground">
-                      Executive car service for business professionals with priority booking.
+                      Professional <Link href="/services/corporate" className="text-accent hover:underline font-semibold">executive limo service {city.name}</Link> for business professionals with priority booking and corporate account management.
                     </p>
                   </div>
                 </Link>
@@ -362,10 +364,10 @@ export default function CityPage({ params }: { params: { area: string; city: str
                   <div className="bg-card border border-border rounded-lg p-6 hover:border-accent/50 hover:shadow-lg transition-all">
                     <div className="flex items-center gap-3 mb-3">
                       <Heart className="h-6 w-6 text-accent" />
-                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Events & Weddings</h3>
+                      <h3 className="text-xl font-bold text-foreground group-hover:text-accent">Wedding Limo {city.name} NY</h3>
                     </div>
                     <p className="text-muted-foreground">
-                      Luxury transportation for weddings, proms, and special events.
+                      Luxury <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo {city.name} NY</Link> transportation for weddings, proms, and special events with elegant vehicles and professional service.
                     </p>
                   </div>
                 </Link>
@@ -398,10 +400,26 @@ export default function CityPage({ params }: { params: { area: string; city: str
                       <h3 className="text-xl font-bold text-foreground group-hover:text-accent">More Cities in {area.name}</h3>
                     </div>
                     <p className="text-muted-foreground">
-                      Explore our services in other cities throughout {area.name}.
+                      Explore our <Link href={`/service-areas/${params.area}`} className="text-accent hover:underline font-semibold">limo service {area.name}</Link> in other cities throughout {area.name}.
                     </p>
                   </div>
                 </Link>
+              </div>
+              {/* Related Cities */}
+              <div className="mt-8">
+                <h3 className="text-xl font-bold text-foreground mb-4 text-center">Related Cities in {area.name}</h3>
+                <div className="flex flex-wrap justify-center gap-3">
+                  {area.cities.filter(c => c.slug !== params.city).slice(0, 5).map((relatedCity) => (
+                    <Link 
+                      key={relatedCity.slug}
+                      href={`/service-areas/${params.area}/${relatedCity.slug}`}
+                      className="px-4 py-2 bg-card border border-border rounded-lg hover:border-accent/50 hover:text-accent transition-colors text-sm font-medium"
+                    >
+                      Limo Service {relatedCity.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -417,7 +435,7 @@ export default function CityPage({ params }: { params: { area: string; city: str
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" asChild>
-                  <Link href="/booking">Book Online Now</Link>
+                  <Link href="/booking">Book Limo Service {city.name}</Link>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-black" asChild>
                   <Link href="/contact">Contact Us</Link>

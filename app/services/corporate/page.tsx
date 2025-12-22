@@ -39,8 +39,39 @@ export const metadata: Metadata = {
 }
 
 export default function CorporatePage() {
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Executive Corporate Transportation Service",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://westchesterlimousine.net",
+      "name": "Westchester Limousine"
+    },
+    "areaServed": [
+      {
+        "@type": "State",
+        "name": "New York"
+      },
+      {
+        "@type": "State",
+        "name": "Connecticut"
+      },
+      {
+        "@type": "City",
+        "name": "New York City"
+      }
+    ],
+    "description": "Executive corporate transportation for business travel, meetings, and events. Professional chauffeurs and corporate accounts available.",
+    "url": "https://westchesterlimousine.net/services/corporate"
+  }
+
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <Header />
       <main>
         <Breadcrumbs
@@ -60,7 +91,7 @@ export default function CorporatePage() {
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 text-pretty">
                   Executive transportation solutions designed for business professionals who demand reliability,
-                  punctuality, and luxury.
+                  punctuality, and luxury. Our <Link href="/services/corporate" className="text-accent hover:underline font-semibold">executive limo service Westchester</Link> serves <Link href="/service-areas/westchester-county-ny/white-plains" className="text-accent hover:underline font-semibold">corporate limo service Scarsdale</Link>, <Link href="/service-areas/westchester-county-ny/white-plains" className="text-accent hover:underline font-semibold">corporate limo service White Plains</Link>, and <Link href="/service-areas/westchester-county-ny/yonkers" className="text-accent hover:underline font-semibold">corporate limo service Yonkers</Link> with professional chauffeurs and luxury vehicles.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" asChild>
@@ -133,7 +164,7 @@ export default function CorporatePage() {
                     <div>
                       <h3 className="font-semibold text-foreground mb-2">Professional Chauffeurs</h3>
                       <p className="text-muted-foreground">
-                        Experienced drivers with extensive knowledge of business districts and airports
+                        Experienced drivers with extensive knowledge of business districts and airports. Our <Link href="/services/airport" className="text-accent hover:underline font-semibold">airport limo service</Link> complements our corporate transportation, ensuring seamless travel for business executives.
                       </p>
                     </div>
                   </div>

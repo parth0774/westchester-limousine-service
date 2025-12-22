@@ -39,7 +39,7 @@ export default function EventsPage() {
                 Arrive in style for your special day with our premium transportation services.
               </p>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-                Our luxury sedans, SUVs, and executive shuttles ensure a memorable experience for proms, weddings, and special events. With professional chauffeurs and elegant vehicles, we make every event extraordinary.
+                Our luxury sedans, SUVs, and executive shuttles ensure a memorable experience for proms, weddings, and special events. Our <Link href="/services/events" className="text-accent hover:underline font-semibold">wedding limo service Westchester</Link> serves <Link href="/service-areas/westchester-county-ny/white-plains" className="text-accent hover:underline font-semibold">wedding limo Yonkers</Link>, <Link href="/service-areas/westchester-county-ny/scarsdale" className="text-accent hover:underline font-semibold">wedding limo Scarsdale</Link>, and all of <Link href="/service-areas/westchester-county-ny" className="text-accent hover:underline font-semibold">wedding limo Westchester County</Link>. With professional chauffeurs and elegant vehicles, we make every event extraordinary.
               </p>
               <Button size="lg" variant="secondary" className="mt-8">
                 <Link href="/contact">Reserve Your Ride</Link>

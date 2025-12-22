@@ -40,7 +40,7 @@ export default function SchoolTransportationPage() {
               </p>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
                 We offer safe drivers, verified routes, and dependable service every day to ensure peace of mind
-                for families and schools.
+                for families and schools. Our <Link href="/services/school" className="text-accent hover:underline font-semibold">school transportation Westchester</Link> serves families in <Link href="/service-areas/westchester-county-ny" className="text-accent hover:underline font-semibold">Westchester County</Link>, <Link href="/service-areas/putnam-county-ny" className="text-accent hover:underline font-semibold">Putnam County</Link>, and <Link href="/service-areas/dutchess-county-ny" className="text-accent hover:underline font-semibold">Dutchess County</Link>.
               </p>
               <Button size="lg" variant="secondary" className="mt-8">
                 <Link href="/contact">Book a Ride</Link>
