@@ -14,18 +14,20 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 bg-primary rounded-sm flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">WL</span>
-            </div>
-            <span className="font-bold text-xl text-foreground">Westchester Limousine</span>
+          <Link href="/" className="flex items-center">
+            <img 
+              src="/logo.png" 
+              alt="Westchester Limousine Logo" 
+              className="h-24 w-24 object-contain cursor-pointer"
+              onError={(e) => {
+                console.error('Failed to load logo:', e);
+                (e.target as HTMLImageElement).style.display = 'none';
+              }}
+            />
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-foreground hover:text-accent transition-colors">
-              Home
-            </Link>
             <Link href="/about" className="text-foreground hover:text-accent transition-colors">
               About
             </Link>
@@ -88,9 +90,6 @@ export function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-border">
             <nav className="flex flex-col px-4 pb-6">
-              <Link href="/" className="w-full py-3 text-lg font-medium text-foreground hover:text-accent border-b border-border/50 transition-colors">
-                Home
-              </Link>
               <Link href="/about" className="w-full py-3 text-lg font-medium text-foreground hover:text-accent border-b border-border/50 transition-colors">
                 About
               </Link>
