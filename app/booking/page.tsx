@@ -1,25 +1,7 @@
-"use client"
-
-import { useEffect } from "react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export default function BookingPage() {
-  useEffect(() => {
-    // Remove any previously inserted forms to prevent duplication
-    const existingScript = document.getElementById("booking-jotform-script")
-    if (existingScript) existingScript.remove()
-
-    // Create the Jotform script element (using your provided form)
-    const script = document.createElement("script")
-    script.src = "https://form.jotform.com/jsform/252758231234253"
-    script.type = "text/javascript"
-    script.id = "booking-jotform-script"
-    script.async = true
-
-    document.getElementById("booking-jotform-container")?.appendChild(script)
-  }, [])
-
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -79,9 +61,16 @@ export default function BookingPage() {
                 </div>
               </div>
 
-              {/* Jotform Embed */}
+              {/* Booking Widget Embed */}
               <div className="lg:col-span-2 bg-gray-50 p-8 rounded-lg shadow-lg">
-                <div id="booking-jotform-container" className="w-full h-full"></div>
+                <iframe
+                  src="/wl-widget.html"
+                  width="100%"
+                  height="950"
+                  style={{ border: "none", display: "block", maxWidth: "960px", margin: "0 auto" }}
+                  title="Book a Ride - Westchester Limousine"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>

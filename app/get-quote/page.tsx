@@ -2,7 +2,6 @@
 
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { PricingTool } from "@/components/pricing-tool"
 import { Phone, Mail, MapPin, Clock, CheckCircle, Sparkles } from "lucide-react"
 import Link from "next/link"
 
@@ -149,9 +148,16 @@ export default function GetQuotePage() {
                 </div>
               </div>
 
-              {/* Right Column - Pricing Tool */}
+              {/* Right Column - Booking Widget */}
               <div className="lg:col-span-2 animate-in fade-in slide-in-from-right-4 duration-500">
-                <PricingTool />
+                <iframe
+                  src="/wl-widget.html"
+                  width="100%"
+                  height="950"
+                  style={{ border: "none", display: "block", maxWidth: "960px", margin: "0 auto" }}
+                  title="Book a Ride - Westchester Limousine"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
